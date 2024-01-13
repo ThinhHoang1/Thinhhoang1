@@ -1,6 +1,6 @@
-👋 Hi there, I'm Thinh!
+# 👋 Hi there, I'm Thinh!
 
-Here's a infomation about me
+## Welcome to my GitHub profile!
 
 ## About Me
 
