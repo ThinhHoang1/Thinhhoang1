@@ -6,7 +6,7 @@ Welcome to my GitHub profile! I'm currently a student at FPT University, majorin
 
 -  **Education**: K17 student at FPT University
 -  **Major**: Artificial Intelligence
--  **Experience**: Ai intern at FPT COMPLEX
+-  **Experience**: Ai intern at FPT COMPLEX Da Nang
 
 ## Contact
 
