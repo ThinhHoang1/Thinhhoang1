@@ -1,6 +1,6 @@
 # 👋 Hello, I'm Thinh
 
-Welcome to my GitHub profile! I'm currently a K17 student at FPT University, majoring in Artificial Intelligence.
+Welcome to my GitHub profile! I'm currently a student at FPT University, majoring in Artificial Intelligence.
 
 ## About Me
 
