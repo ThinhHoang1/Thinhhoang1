@@ -10,7 +10,7 @@ Welcome to my GitHub profile! I'm currently a student at FPT University, majorin
 
 ## Extra-Curricular Activity
 
-- **PT Edu Experience Space**
+- **FPT Edu Experience Space**
   - Event Collaborator
   - Actively participated in FPT Edu Hackathon 2022.
   - Created an academic playground and meaningful events within the FPT Education system, attracting 15,000+ students and learners.
