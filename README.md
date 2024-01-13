@@ -1,23 +1,17 @@
-# 👋 Hello there, I'm Thinh
+👋 Hi there, I'm Thinh!
 
-Welcome to my GitHub profile! I'm currently a student at FPT University, majoring in Artificial Intelligence.
+Here's a infomation about me
 
 ## About Me
 
--  **Education**: K17 student at FPT University
--  **Major**: Artificial Intelligence
--  **Experience**:  + Ai intern at FPT COMPLEX Da Nang
+-  Currently a K17 student at FPT University, specializing in Artificial Intelligence.
+-  AI Intern at FPT COMPLEX Da Nang, gaining practical experience and contributing to real-world projects.
+-  I used to be Event Collaborator of FPT Edu Hackathon 2022, creating an academic playground and attracting 15,000+ students and learners.
 
-## Extra-Curricular Activity
 
-- **FPT Edu Experience Space**
-  - Event Collaborator
-  - Actively participated in FPT Edu Hackathon 2022.
-  - Created an academic playground and meaningful events within the FPT Education system, attracting 15,000+ students and learners.
+## Contact:
 
-## Contact
+- ✉️ Email: hthinhaien@gmail.com
+- 📘 Facebook: [FB Hung Thinh](https://www.facebook.com/hungthinh.hoang.758)
 
--  **Email**: hthinhaien@gmail.com
--  **Facebook**: [FB Hung Thinh](https://www.facebook.com/hungthinh.hoang.758)  <!-- Replace with your actual Facebook link -->
-
-Feel free to connect and explore the projects on my GitHub. 😊
+Feel free to connect. 😊
