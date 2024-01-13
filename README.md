@@ -1,5 +1,5 @@
 <h1 align="left">👋 Hello World! Hung Thinh</h1>
-<h3 align="left">an AI enthusiast AI major at FPT University. 🚀🔍 My passion lies in the fascinating world of Artificial Intelligence, where I explore the realms of machine learning, deep learning, and data science</h3>
+<h3 align="left">An AI enthusiast AI major at FPT University. 🔍 My passion lies in the fascinating world of Artificial Intelligence, where I explore the realms of machine learning, deep learning, and data science</h3>
 
 - 📫 How to reach me **hthinhaien@gmail.com**
 
