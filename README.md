@@ -1,4 +1,4 @@
-# 👋 Hello, I'm Thinh
+# 👋 Hello there, I'm Thinh
 
 Welcome to my GitHub profile! I'm currently a student at FPT University, majoring in Artificial Intelligence.
 
