@@ -1,5 +1,5 @@
 <h1 align="center">👋 Hello World! Hung Thinh</h1>
-<h3 align="center">an AI enthusiast AI major at FPT University. 🚀</h3>
+<h3 align="center">an AI enthusiast AI major at FPT University. 🚀🔍 My passion lies in the fascinating world of Artificial Intelligence, where I explore the realms of machine learning, deep learning, and data science</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=thinhhoang1&label=Profile%20views&color=0e75b6&style=flat" alt="thinhhoang1" /> </p>
 
@@ -15,5 +15,3 @@
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=thinhhoang1&show_icons=true&locale=en&layout=compact" alt="thinhhoang1" /></p>
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=thinhhoang1&show_icons=true&locale=en" alt="thinhhoang1" /></p>
-
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=thinhhoang1&" alt="thinhhoang1" /></p>
