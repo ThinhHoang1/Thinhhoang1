@@ -12,6 +12,6 @@
 ## Contact:
 
 - ✉️ Email: hthinhaien@gmail.com
-- 📘 Facebook: [FB Hung Thinh]([https://www.facebook.com/hungthinh.hoang.758](https://www.facebook.com/profile.php?id=100082113433852)https://www.facebook.com/profile.php?id=100082113433852)
+- 📘 Facebook: [FB Hung Thinh](https://www.facebook.com/profile.php?id=100082113433852)
 
 Feel free to connect. 😊
