@@ -19,10 +19,10 @@
 
 ### 04 // Selected work
 
-<a href="https://github.com/ThinhHoang1/ban-tay-muoi-nghin/releases/download/v1.0/ban-tay-muoi-nghin.mp4"><img src="assets/film/film.gif" width="100%" alt="Bàn tay mười nghìn (The ten-thousand-đồng hand): opening of a hand-drawn short film rendered from code"></a>
+<a href="https://github.com/ThinhHoang1/code-animated-film/releases/download/v1.0/ban-tay-muoi-nghin.mp4"><img src="assets/film/film.gif" width="100%" alt="Bàn tay mười nghìn (The ten-thousand-đồng hand): opening of a hand-drawn short film rendered from code"></a>
 
 <b>Bàn tay mười nghìn</b> <i>(The ten-thousand-đồng hand)</i>: a hand-drawn short film, made entirely in code<br>
-<a href="https://github.com/ThinhHoang1/ban-tay-muoi-nghin/releases/download/v1.0/ban-tay-muoi-nghin.mp4"><b>▶ Watch the full film (1080p, 11:47)</b></a> &nbsp;·&nbsp; <a href="https://github.com/ThinhHoang1/ban-tay-muoi-nghin"><b>Source code</b></a><br>
+<a href="https://github.com/ThinhHoang1/code-animated-film/releases/download/v1.0/ban-tay-muoi-nghin.mp4"><b>▶ Watch the full film (1080p, 11:47)</b></a> &nbsp;·&nbsp; <a href="https://github.com/ThinhHoang1/code-animated-film"><b>Source code</b></a><br>
 <sub>11:47 · original story · 109 lines in 11 chapters · 5 character voices · ~20 hand-drawn sets · 1080p30</sub><br>
 <sub>Script → Gemini TTS, 3 takes per line → Whisper large-v3-turbo keeps the take that matches the script → mouth envelopes and cue timing → every frame redrawn by a canvas ink rig → HyperFrames render. No drawing app, no timeline.</sub>
 
