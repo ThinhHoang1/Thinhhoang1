@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="600" height="272" viewBox="0 0 600 272" role="img" aria-labelledby="title desc">
+<title id="title">Claude Code Agent Team</title><desc id="desc">An AI dev team inside Claude Code: 8 role agents, a HANDOFF protocol and 3 hook quality gates. Root-caused a gate that blocked teammates forever (it read the lead's transcript, not theirs). 118 tests.</desc>
+<style>
+.s{font-family:'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif}.m{font-family:ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace}
+.run{animation:run 9s linear infinite;animation-delay:-3.4s}@keyframes run{to{stroke-dashoffset:-1708.5}}
+.blink{animation:blink 1.6s steps(1) infinite}@keyframes blink{50%{opacity:.25}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<defs>
+<clipPath id="card"><rect width="600" height="272" rx="18"/></clipPath>
+<filter id="glow" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<filter id="haze" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="70"/></filter>
+<linearGradient id="brand" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22d3ee"/><stop offset=".5" stop-color="#a78bfa"/><stop offset="1" stop-color="#f472b6"/></linearGradient>
+<radialGradient id="corner" cx="1" cy="0" r="1"><stop offset="0" stop-color="#22d3ee" stop-opacity=".22"/><stop offset=".6" stop-color="#22d3ee" stop-opacity="0"/></radialGradient>
+</defs>
+<rect x=".5" y=".5" width="599" height="271" rx="18" fill="#060910" stroke="#1a2540"/>
+<g clip-path="url(#card)">
+<rect width="600" height="272" fill="url(#corner)"/>
+<text class="s" x="574" y="88" font-size="84" font-weight="800" text-anchor="end" fill="none" stroke="#1a2540" stroke-width="1.5">03</text>
+<rect x="28" y="26" width="109.9" height="24" rx="12" fill="#22d3ee" fill-opacity=".12" stroke="#22d3ee" stroke-opacity=".45"/>
+<circle class="blink" cx="42" cy="38" r="3.5" fill="#22d3ee"/>
+<text class="m" x="52" y="42" font-size="11" font-weight="700" letter-spacing="1" fill="#22d3ee">OPEN SOURCE</text>
+<text class="s" x="28" y="98" font-size="29" font-weight="700" fill="#e8eefc">Claude Code Agent Team</text>
+<text class="s" x="28" y="132" font-size="17" fill="#8391ad">An AI dev team inside Claude Code: 8 role agents, a</text>
+<text class="s" x="28" y="155" font-size="17" fill="#8391ad">HANDOFF protocol and 3 hook quality gates. Root-caused a</text>
+<text class="s" x="28" y="178" font-size="17" fill="#8391ad">gate that blocked teammates forever (it read the lead's</text>
+<text class="s" x="28" y="201" font-size="17" fill="#8391ad">transcript, not theirs). 118 tests.</text>
+<rect x="28" y="220" width="109.8" height="28" rx="14" fill="#0b1120" stroke="#1a2540"/><text class="m" x="82.9" y="239" font-size="13" text-anchor="middle" fill="#8391ad">Claude Code</text><rect x="145.8" y="220" width="63" height="28" rx="14" fill="#0b1120" stroke="#1a2540"/><text class="m" x="177.3" y="239" font-size="13" text-anchor="middle" fill="#8391ad">Hooks</text><rect x="216.8" y="220" width="94.2" height="28" rx="14" fill="#0b1120" stroke="#1a2540"/><text class="m" x="263.9" y="239" font-size="13" text-anchor="middle" fill="#8391ad">Bash · jq</text><rect x="319" y="220" width="109.8" height="28" rx="14" fill="#0b1120" stroke="#1a2540"/><text class="m" x="373.9" y="239" font-size="13" text-anchor="middle" fill="#8391ad">Multi-agent</text>
+<text class="m" x="572" y="239" font-size="13" text-anchor="end" fill="#8391ad">Shell</text>
+<rect class="run" x="1" y="1" width="598" height="270" rx="17" fill="none" stroke="#22d3ee" stroke-width="2" stroke-dasharray="150 1558.5" stroke-linecap="round"/>
+</g>
+</svg>

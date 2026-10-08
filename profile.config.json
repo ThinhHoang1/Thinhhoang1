@@ -98,6 +98,20 @@
       ]
     },
     {
+      "id": "agent-team",
+      "repo": "claude-code-agent-team",
+      "title": "Claude Code Agent Team",
+      "status": "public",
+      "badge": "OPEN SOURCE",
+      "desc": "An AI dev team inside Claude Code: 8 role agents, a HANDOFF protocol and 3 hook quality gates. Root-caused a gate that blocked teammates forever (it read the lead's transcript, not theirs). 118 tests.",
+      "tags": [
+        "Claude Code",
+        "Hooks",
+        "Bash · jq",
+        "Multi-agent"
+      ]
+    },
+    {
       "id": "video-studio",
       "repo": "video-studio",
       "title": "Video Studio",
