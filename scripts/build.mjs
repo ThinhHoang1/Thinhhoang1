@@ -680,9 +680,10 @@ function readme(a) {
     .join('\n');
   const f = cfg.film;
   const film = f
-    ? `<img src="${f.gif}" width="100%" alt="${esc(`${f.title} (${f.english}): opening of a hand-drawn short film rendered from code`)}">
+    ? `<a href="${f.watch}"><img src="${f.gif}" width="100%" alt="${esc(`${f.title} (${f.english}): opening of a hand-drawn short film rendered from code`)}"></a>
 
 <b>${esc(f.title)}</b> <i>(${esc(f.english)})</i>: a hand-drawn short film, made entirely in code<br>
+<a href="${f.watch}"><b>▶ Watch the full film (1080p, 11:47)</b></a> &nbsp;·&nbsp; <a href="${f.repo}"><b>Source code</b></a><br>
 <sub>${esc(f.facts)}</sub><br>
 <sub>${esc(f.pipeline)}</sub>
 

@@ -265,6 +265,8 @@
       "assets/film/still-jar.jpg"
     ],
     "facts": "11:47 · original story · 109 lines in 11 chapters · 5 character voices · ~20 hand-drawn sets · 1080p30",
-    "pipeline": "Script → Gemini TTS, 3 takes per line → Whisper large-v3-turbo keeps the take that matches the script → mouth envelopes and cue timing → every frame redrawn by a canvas ink rig → HyperFrames render. No drawing app, no timeline."
+    "pipeline": "Script → Gemini TTS, 3 takes per line → Whisper large-v3-turbo keeps the take that matches the script → mouth envelopes and cue timing → every frame redrawn by a canvas ink rig → HyperFrames render. No drawing app, no timeline.",
+    "watch": "https://github.com/ThinhHoang1/ban-tay-muoi-nghin/releases/download/v1.0/ban-tay-muoi-nghin.mp4",
+    "repo": "https://github.com/ThinhHoang1/ban-tay-muoi-nghin"
   }
 }
