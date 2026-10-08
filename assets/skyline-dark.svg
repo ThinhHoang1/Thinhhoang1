@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="540" viewBox="0 0 1200 540" role="img" aria-labelledby="title desc">
-<title id="title">Activity skyline</title><desc id="desc">963 contributions in the last 12 months across 102 active days; best day 35 on 2026-07-08.</desc>
+<title id="title">Activity skyline</title><desc id="desc">956 contributions in the last 12 months across 92 active days; best day 35 on 2026-07-08.</desc>
 <style>
 .s{font-family:'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif}.m{font-family:ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace}
 .drift{animation:drift 18s ease-in-out infinite alternate}.d1{animation-duration:23s}.d2{animation-duration:29s}
@@ -25,9 +25,9 @@
 <rect width="1200" height="540" fill="url(#dots)" mask="url(#fade)"/>
 <text class="m" x="40" y="46" font-size="12" letter-spacing="2" fill="#22d3ee">02 // ACTIVITY SKYLINE</text>
 <text class="s" x="40" y="74" font-size="22" font-weight="700" fill="#e8eefc">One tower per day, last 12 months</text>
-<text class="s" x="40" y="158" font-size="64" font-weight="800" fill="url(#brand)">963</text>
-<text class="s" x="40" y="186" font-size="15" fill="#8391ad">contributions · <tspan fill="#e8eefc">908</tspan> private · <tspan fill="#e8eefc">55</tspan> public</text>
-<text class="s" x="40" y="236" font-size="26" font-weight="700" fill="#e8eefc">102</text>
+<text class="s" x="40" y="158" font-size="64" font-weight="800" fill="url(#brand)">956</text>
+<text class="s" x="40" y="186" font-size="15" fill="#8391ad">contributions · <tspan fill="#e8eefc">908</tspan> private · <tspan fill="#e8eefc">48</tspan> public</text>
+<text class="s" x="40" y="236" font-size="26" font-weight="700" fill="#e8eefc">92</text>
 <text class="m" x="40" y="255" font-size="11" letter-spacing="1" fill="#8391ad">ACTIVE DAYS</text><text class="s" x="160" y="236" font-size="26" font-weight="700" fill="#e8eefc">6d</text>
 <text class="m" x="160" y="255" font-size="11" letter-spacing="1" fill="#8391ad">LONGEST STREAK</text>
 <text class="s" x="40" y="296" font-size="26" font-weight="700" fill="#e8eefc">4d</text>
@@ -57,8 +57,8 @@
 <polygon points="1073.5,195.1 1084.3,191.9 1084.3,262.5 1073.5,265.6" fill="#51358f"/><polygon points="1066.5,190.6 1077.3,187.4 1084.3,191.9 1073.5,195.1" fill="#9970f7"/></g>
 <polygon points="1003.9,261.8 1014.7,258.7 1021.7,263.2 1010.9,266.3" fill="#141c2e"/>
 <g class="tw" style="animation-delay:1376ms"><title>14 on Oct 7</title>
-<polygon points="1090.5,187.1 1097.5,191.6 1097.5,267.4 1090.5,262.9" fill="#b83877"/>
-<polygon points="1097.5,191.6 1108.3,188.4 1108.3,264.3 1097.5,267.4" fill="#892a59"/><polygon points="1090.5,187.1 1101.3,183.9 1108.3,188.4 1097.5,191.6" fill="#ee5ea5"/></g>
+<polygon points="1090.5,187.1 1097.5,191.6 1097.5,267.4 1090.5,262.9" fill="#6c48c0"/>
+<polygon points="1097.5,191.6 1108.3,188.4 1108.3,264.3 1097.5,267.4" fill="#51358f"/><polygon points="1090.5,187.1 1101.3,183.9 1108.3,188.4 1097.5,191.6" fill="#9970f7"/></g>
 <polygon points="1027.9,263.6 1038.7,260.5 1045.7,265 1034.9,268.1" fill="#141c2e"/>
 <g class="tw" style="animation-delay:1316ms"><title>22 on Sep 22</title>
 <polygon points="1051.9,171.6 1058.9,176.2 1058.9,269.9 1051.9,265.4" fill="#b83877"/>
@@ -70,9 +70,9 @@
 <g class="tw" style="animation-delay:1256ms"><title>13 on Sep 7</title>
 <polygon points="1013.3,194.7 1020.3,199.2 1020.3,272.4 1013.3,267.9" fill="#6c48c0"/>
 <polygon points="1020.3,199.2 1031.1,196 1031.1,269.3 1020.3,272.4" fill="#51358f"/><polygon points="1013.3,194.7 1024.1,191.5 1031.1,196 1020.3,199.2" fill="#9970f7"/></g>
-<g class="tw" style="animation-delay:1384ms"><title>7 on Oct 8</title>
-<polygon points="1099.9,213.9 1106.9,218.5 1106.9,273.5 1099.9,269" fill="#0b819a"/>
-<polygon points="1106.9,218.5 1117.7,215.3 1117.7,270.4 1106.9,273.5" fill="#086073"/><polygon points="1099.9,213.9 1110.7,210.8 1117.7,215.3 1106.9,218.5" fill="#2bb0cd"/></g>
+<g class="tw" style="animation-delay:1384ms"><title>11 on Oct 8</title>
+<polygon points="1099.9,201.2 1106.9,205.8 1106.9,273.5 1099.9,269" fill="#6c48c0"/>
+<polygon points="1106.9,205.8 1117.7,202.6 1117.7,270.4 1106.9,273.5" fill="#51358f"/><polygon points="1099.9,201.2 1110.7,198.1 1117.7,202.6 1106.9,205.8" fill="#9970f7"/></g>
 <g class="tw" style="animation-delay:1290ms"><title>24 on Sep 15</title>
 <polygon points="1037.3,172 1044.3,176.5 1044.3,274.2 1037.3,269.7" fill="#b83877"/>
 <polygon points="1044.3,176.5 1055.1,173.3 1055.1,271.1 1044.3,274.2" fill="#892a59"/><polygon points="1037.3,172 1048.1,168.8 1055.1,173.3 1044.3,176.5" fill="#ee5ea5"/></g>
@@ -84,9 +84,9 @@
 <g class="tw" style="animation-delay:1358ms"><title>12 on Oct 1</title>
 <polygon points="1085.3,202.8 1092.3,207.3 1092.3,277.8 1085.3,273.3" fill="#6c48c0"/>
 <polygon points="1092.3,207.3 1103.1,204.1 1103.1,274.7 1092.3,277.8" fill="#51358f"/><polygon points="1085.3,202.8 1096.1,199.6 1103.1,204.1 1092.3,207.3" fill="#9970f7"/></g>
-<g class="tw" style="animation-delay:1264ms"><title>6 on Sep 8</title>
-<polygon points="1022.7,222.7 1029.7,227.2 1029.7,278.5 1022.7,274" fill="#0b819a"/>
-<polygon points="1029.7,227.2 1040.5,224 1040.5,275.4 1029.7,278.5" fill="#086073"/><polygon points="1022.7,222.7 1033.5,219.5 1040.5,224 1029.7,227.2" fill="#2bb0cd"/></g>
+<g class="tw" style="animation-delay:1264ms"><title>7 on Sep 8</title>
+<polygon points="1022.7,218.9 1029.7,223.5 1029.7,278.5 1022.7,274" fill="#0b819a"/>
+<polygon points="1029.7,223.5 1040.5,220.3 1040.5,275.4 1029.7,278.5" fill="#086073"/><polygon points="1022.7,218.9 1033.5,215.8 1040.5,220.3 1029.7,223.5" fill="#2bb0cd"/></g>
 <polygon points="960.1,274.7 970.9,271.6 977.9,276.1 967.1,279.2" fill="#141c2e"/>
 <g class="tw" style="animation-delay:1298ms"><title>18 on Sep 16</title>
 <polygon points="1046.7,190.5 1053.7,195 1053.7,280.3 1046.7,275.8" fill="#b83877"/>
@@ -100,9 +100,9 @@
 <g class="tw" style="animation-delay:1366ms"><title>21 on Oct 2</title>
 <polygon points="1094.7,187.7 1101.7,192.2 1101.7,283.9 1094.7,279.4" fill="#b83877"/>
 <polygon points="1101.7,192.2 1112.5,189 1112.5,280.8 1101.7,283.9" fill="#892a59"/><polygon points="1094.7,187.7 1105.5,184.5 1112.5,189 1101.7,192.2" fill="#ee5ea5"/></g>
-<g class="tw" style="animation-delay:1272ms"><title>1 on Sep 9</title>
-<polygon points="1032.1,256.2 1039.1,260.7 1039.1,284.6 1032.1,280.1" fill="#10495b"/>
-<polygon points="1039.1,260.7 1049.9,257.5 1049.9,281.5 1039.1,284.6" fill="#0c3744"/><polygon points="1032.1,256.2 1042.9,253 1049.9,257.5 1039.1,260.7" fill="#317186"/></g>
+<g class="tw" style="animation-delay:1272ms"><title>3 on Sep 9</title>
+<polygon points="1032.1,242.3 1039.1,246.9 1039.1,284.6 1032.1,280.1" fill="#10495b"/>
+<polygon points="1039.1,246.9 1049.9,243.7 1049.9,281.5 1039.1,284.6" fill="#0c3744"/><polygon points="1032.1,242.3 1042.9,239.2 1049.9,243.7 1039.1,246.9" fill="#317186"/></g>
 <g class="tw" style="animation-delay:1178ms"><title>20 on Aug 17</title>
 <polygon points="969.5,191.2 976.5,195.7 976.5,285.3 969.5,280.8" fill="#b83877"/>
 <polygon points="976.5,195.7 987.3,192.5 987.3,282.2 976.5,285.3" fill="#892a59"/><polygon points="969.5,191.2 980.3,188 987.3,192.5 976.5,195.7" fill="#ee5ea5"/></g>
@@ -110,18 +110,18 @@
 <polygon points="1056.1,201.2 1063.1,205.7 1063.1,286.4 1056.1,281.9" fill="#b83877"/>
 <polygon points="1063.1,205.7 1073.9,202.5 1073.9,283.3 1063.1,286.4" fill="#892a59"/><polygon points="1056.1,201.2 1066.9,198 1073.9,202.5 1063.1,205.7" fill="#ee5ea5"/></g>
 <g class="tw" style="animation-delay:1212ms"><title>8 on Aug 25</title>
-<polygon points="993.5,224.1 1000.5,228.6 1000.5,287.1 993.5,282.6" fill="#6c48c0"/>
-<polygon points="1000.5,228.6 1011.3,225.4 1011.3,284 1000.5,287.1" fill="#51358f"/><polygon points="993.5,224.1 1004.3,220.9 1011.3,225.4 1000.5,228.6" fill="#9970f7"/></g>
+<polygon points="993.5,224.1 1000.5,228.6 1000.5,287.1 993.5,282.6" fill="#0b819a"/>
+<polygon points="1000.5,228.6 1011.3,225.4 1011.3,284 1000.5,287.1" fill="#086073"/><polygon points="993.5,224.1 1004.3,220.9 1011.3,225.4 1000.5,228.6" fill="#2bb0cd"/></g>
 <polygon points="930.9,283.3 941.7,280.2 948.7,284.7 937.9,287.8" fill="#141c2e"/>
 <polygon points="1080.1,283.7 1090.9,280.6 1097.9,285.1 1087.1,288.2" fill="#141c2e"/>
 <polygon points="1017.5,284.4 1028.3,281.3 1035.3,285.8 1024.5,288.9" fill="#141c2e"/>
 <g class="tw" style="animation-delay:1152ms"><title>9 on Aug 10</title>
-<polygon points="954.9,223.3 961.9,227.9 961.9,289.6 954.9,285.1" fill="#6c48c0"/>
-<polygon points="961.9,227.9 972.7,224.7 972.7,286.5 961.9,289.6" fill="#51358f"/><polygon points="954.9,223.3 965.7,220.2 972.7,224.7 961.9,227.9" fill="#9970f7"/></g>
+<polygon points="954.9,223.3 961.9,227.9 961.9,289.6 954.9,285.1" fill="#0b819a"/>
+<polygon points="961.9,227.9 972.7,224.7 972.7,286.5 961.9,289.6" fill="#086073"/><polygon points="954.9,223.3 965.7,220.2 972.7,224.7 961.9,227.9" fill="#2bb0cd"/></g>
 <polygon points="1104.1,285.5 1114.9,282.4 1121.9,286.9 1111.1,290" fill="#141c2e"/>
-<g class="tw" style="animation-delay:1280ms"><title>5 on Sep 10</title>
-<polygon points="1041.5,238.9 1048.5,243.4 1048.5,290.7 1041.5,286.2" fill="#0b819a"/>
-<polygon points="1048.5,243.4 1059.3,240.2 1059.3,287.6 1048.5,290.7" fill="#086073"/><polygon points="1041.5,238.9 1052.3,235.7 1059.3,240.2 1048.5,243.4" fill="#2bb0cd"/></g>
+<g class="tw" style="animation-delay:1280ms"><title>34 on Sep 10</title>
+<polygon points="1041.5,170.8 1048.5,175.4 1048.5,290.7 1041.5,286.2" fill="#b83877"/>
+<polygon points="1048.5,175.4 1059.3,172.2 1059.3,287.6 1048.5,290.7" fill="#892a59"/><polygon points="1041.5,170.8 1052.3,167.7 1059.3,172.2 1048.5,175.4" fill="#ee5ea5"/></g>
 <g class="tw" style="animation-delay:1186ms"><title>3 on Aug 18</title>
 <polygon points="978.9,249.1 985.9,253.7 985.9,291.4 978.9,286.9" fill="#10495b"/>
 <polygon points="985.9,253.7 996.7,250.5 996.7,288.3 985.9,291.4" fill="#0c3744"/><polygon points="978.9,249.1 989.7,246 996.7,250.5 985.9,253.7" fill="#317186"/></g>
@@ -139,9 +139,9 @@
 <polygon points="964.3,248.4 971.3,252.9 971.3,295.7 964.3,291.2" fill="#0b819a"/>
 <polygon points="971.3,252.9 982.1,249.7 982.1,292.6 971.3,295.7" fill="#086073"/><polygon points="964.3,248.4 975.1,245.2 982.1,249.7 971.3,252.9" fill="#2bb0cd"/></g>
 <polygon points="901.7,291.9 912.5,288.8 919.5,293.3 908.7,296.4" fill="#141c2e"/>
-<g class="tw" style="animation-delay:1288ms"><title>9 on Sep 11</title>
-<polygon points="1050.9,230.5 1057.9,235.1 1057.9,296.8 1050.9,292.3" fill="#6c48c0"/>
-<polygon points="1057.9,235.1 1068.7,231.9 1068.7,293.7 1057.9,296.8" fill="#51358f"/><polygon points="1050.9,230.5 1061.7,227.4 1068.7,231.9 1057.9,235.1" fill="#9970f7"/></g>
+<g class="tw" style="animation-delay:1288ms"><title>15 on Sep 11</title>
+<polygon points="1050.9,214 1057.9,218.5 1057.9,296.8 1050.9,292.3" fill="#b83877"/>
+<polygon points="1057.9,218.5 1068.7,215.3 1068.7,293.7 1057.9,296.8" fill="#892a59"/><polygon points="1050.9,214 1061.7,210.8 1068.7,215.3 1057.9,218.5" fill="#ee5ea5"/></g>
 <g class="tw" style="animation-delay:1194ms"><title>2 on Aug 19</title>
 <polygon points="988.3,261.3 995.3,265.8 995.3,297.5 988.3,293" fill="#10495b"/>
 <polygon points="995.3,265.8 1006.1,262.6 1006.1,294.4 995.3,297.5" fill="#0c3744"/><polygon points="988.3,261.3 999.1,258.1 1006.1,262.6 995.3,265.8" fill="#317186"/></g>
@@ -155,8 +155,8 @@
 <polygon points="949.7,295.5 960.5,292.4 967.5,296.9 956.7,300" fill="#141c2e"/>
 <polygon points="887.1,296.2 897.9,293.1 904.9,297.6 894.1,300.7" fill="#141c2e"/>
 <g class="tw" style="animation-delay:1262ms"><title>9 on Sep 4</title>
-<polygon points="1036.3,234.8 1043.3,239.4 1043.3,301.1 1036.3,296.6" fill="#6c48c0"/>
-<polygon points="1043.3,239.4 1054.1,236.2 1054.1,298 1043.3,301.1" fill="#51358f"/><polygon points="1036.3,234.8 1047.1,231.7 1054.1,236.2 1043.3,239.4" fill="#9970f7"/></g>
+<polygon points="1036.3,234.8 1043.3,239.4 1043.3,301.1 1036.3,296.6" fill="#0b819a"/>
+<polygon points="1043.3,239.4 1054.1,236.2 1054.1,298 1043.3,301.1" fill="#086073"/><polygon points="1036.3,234.8 1047.1,231.7 1054.1,236.2 1043.3,239.4" fill="#2bb0cd"/></g>
 <g class="tw" style="animation-delay:1168ms"><title>11 on Aug 12</title>
 <polygon points="973.7,229.5 980.7,234.1 980.7,301.8 973.7,297.3" fill="#6c48c0"/>
 <polygon points="980.7,234.1 991.5,230.9 991.5,298.7 980.7,301.8" fill="#51358f"/><polygon points="973.7,229.5 984.5,226.4 991.5,230.9 980.7,234.1" fill="#9970f7"/></g>
@@ -185,11 +185,11 @@
 <polygon points="983.1,252.1 990.1,256.6 990.1,307.9 983.1,303.4" fill="#0b819a"/>
 <polygon points="990.1,256.6 1000.9,253.4 1000.9,304.8 990.1,307.9" fill="#086073"/><polygon points="983.1,252.1 993.9,248.9 1000.9,253.4 990.1,256.6" fill="#2bb0cd"/></g>
 <g class="tw" style="animation-delay:1082ms"><title>14 on Jul 21</title>
-<polygon points="920.5,228.3 927.5,232.8 927.5,308.6 920.5,304.1" fill="#b83877"/>
-<polygon points="927.5,232.8 938.3,229.6 938.3,305.5 927.5,308.6" fill="#892a59"/><polygon points="920.5,228.3 931.3,225.1 938.3,229.6 927.5,232.8" fill="#ee5ea5"/></g>
+<polygon points="920.5,228.3 927.5,232.8 927.5,308.6 920.5,304.1" fill="#6c48c0"/>
+<polygon points="927.5,232.8 938.3,229.6 938.3,305.5 927.5,308.6" fill="#51358f"/><polygon points="920.5,228.3 931.3,225.1 938.3,229.6 927.5,232.8" fill="#9970f7"/></g>
 <g class="tw" style="animation-delay:988ms"><title>9 on Jun 28</title>
-<polygon points="857.9,243 864.9,247.6 864.9,309.3 857.9,304.8" fill="#6c48c0"/>
-<polygon points="864.9,247.6 875.7,244.4 875.7,306.2 864.9,309.3" fill="#51358f"/><polygon points="857.9,243 868.7,239.9 875.7,244.4 864.9,247.6" fill="#9970f7"/></g>
+<polygon points="857.9,243 864.9,247.6 864.9,309.3 857.9,304.8" fill="#0b819a"/>
+<polygon points="864.9,247.6 875.7,244.4 875.7,306.2 864.9,309.3" fill="#086073"/><polygon points="857.9,243 868.7,239.9 875.7,244.4 864.9,247.6" fill="#2bb0cd"/></g>
 <g class="tw" style="animation-delay:1210ms"><title>21 on Aug 21</title>
 <polygon points="1007.1,213.5 1014.1,218 1014.1,309.7 1007.1,305.2" fill="#b83877"/>
 <polygon points="1014.1,218 1024.9,214.8 1024.9,306.6 1014.1,309.7" fill="#892a59"/><polygon points="1007.1,213.5 1017.9,210.3 1024.9,214.8 1014.1,218" fill="#ee5ea5"/></g>
@@ -208,8 +208,8 @@
 <polygon points="843.3,285.2 850.3,289.7 850.3,313.6 843.3,309.1" fill="#10495b"/>
 <polygon points="850.3,289.7 861.1,286.5 861.1,310.5 850.3,313.6" fill="#0c3744"/><polygon points="843.3,285.2 854.1,282 861.1,286.5 850.3,289.7" fill="#317186"/></g>
 <g class="tw" style="animation-delay:1184ms"><title>14 on Aug 14</title>
-<polygon points="992.5,233.7 999.5,238.2 999.5,314 992.5,309.5" fill="#b83877"/>
-<polygon points="999.5,238.2 1010.3,235 1010.3,310.9 999.5,314" fill="#892a59"/><polygon points="992.5,233.7 1003.3,230.5 1010.3,235 999.5,238.2" fill="#ee5ea5"/></g>
+<polygon points="992.5,233.7 999.5,238.2 999.5,314 992.5,309.5" fill="#6c48c0"/>
+<polygon points="999.5,238.2 1010.3,235 1010.3,310.9 999.5,314" fill="#51358f"/><polygon points="992.5,233.7 1003.3,230.5 1010.3,235 999.5,238.2" fill="#9970f7"/></g>
 <polygon points="929.9,310.2 940.7,307.1 947.7,311.6 936.9,314.7" fill="#141c2e"/>
 <g class="tw" style="animation-delay:996ms"><title>7 on Jun 29</title>
 <polygon points="867.3,255.8 874.3,260.4 874.3,315.4 867.3,310.9" fill="#0b819a"/>
@@ -219,8 +219,8 @@
 <polygon points="953.9,288.1 960.9,292.6 960.9,316.5 953.9,312" fill="#10495b"/>
 <polygon points="960.9,292.6 971.7,289.4 971.7,313.4 960.9,316.5" fill="#0c3744"/><polygon points="953.9,288.1 964.7,284.9 971.7,289.4 960.9,292.6" fill="#317186"/></g>
 <g class="tw" style="animation-delay:1030ms"><title>14 on Jul 7</title>
-<polygon points="891.3,236.9 898.3,241.4 898.3,317.2 891.3,312.7" fill="#b83877"/>
-<polygon points="898.3,241.4 909.1,238.2 909.1,314.1 898.3,317.2" fill="#892a59"/><polygon points="891.3,236.9 902.1,233.7 909.1,238.2 898.3,241.4" fill="#ee5ea5"/></g>
+<polygon points="891.3,236.9 898.3,241.4 898.3,317.2 891.3,312.7" fill="#6c48c0"/>
+<polygon points="898.3,241.4 909.1,238.2 909.1,314.1 898.3,317.2" fill="#51358f"/><polygon points="891.3,236.9 902.1,233.7 909.1,238.2 898.3,241.4" fill="#9970f7"/></g>
 <polygon points="828.7,313.4 839.5,310.3 846.5,314.8 835.7,317.9" fill="#141c2e"/>
 <g class="tw" style="animation-delay:1158ms"><title>2 on Aug 7</title>
 <polygon points="977.9,282.1 984.9,286.6 984.9,318.3 977.9,313.8" fill="#10495b"/>
@@ -251,8 +251,8 @@
 <polygon points="924.7,250.1 931.7,254.6 931.7,325.1 924.7,320.6" fill="#6c48c0"/>
 <polygon points="931.7,254.6 942.5,251.4 942.5,322 931.7,325.1" fill="#51358f"/><polygon points="924.7,250.1 935.5,246.9 942.5,251.4 931.7,254.6" fill="#9970f7"/></g>
 <g class="tw" style="animation-delay:978ms"><title>9 on Jun 23</title>
-<polygon points="862.1,259.5 869.1,264.1 869.1,325.8 862.1,321.3" fill="#6c48c0"/>
-<polygon points="869.1,264.1 879.9,260.9 879.9,322.7 869.1,325.8" fill="#51358f"/><polygon points="862.1,259.5 872.9,256.4 879.9,260.9 869.1,264.1" fill="#9970f7"/></g>
+<polygon points="862.1,259.5 869.1,264.1 869.1,325.8 862.1,321.3" fill="#0b819a"/>
+<polygon points="869.1,264.1 879.9,260.9 879.9,322.7 869.1,325.8" fill="#086073"/><polygon points="862.1,259.5 872.9,256.4 879.9,260.9 869.1,264.1" fill="#2bb0cd"/></g>
 <polygon points="799.5,322 810.3,318.9 817.3,323.4 806.5,326.5" fill="#141c2e"/>
 <g class="tw" style="animation-delay:1106ms"><title>1 on Jul 24</title>
 <polygon points="948.7,298.5 955.7,303 955.7,326.9 948.7,322.4" fill="#10495b"/>
@@ -267,21 +267,21 @@
 <polygon points="847.5,260.8 854.5,265.3 854.5,330.1 847.5,325.6" fill="#6c48c0"/>
 <polygon points="854.5,265.3 865.3,262.1 865.3,327 854.5,330.1" fill="#51358f"/><polygon points="847.5,260.8 858.3,257.6 865.3,262.1 854.5,265.3" fill="#9970f7"/></g>
 <g class="tw" style="animation-delay:858ms"><title>8 on May 24</title>
-<polygon points="784.9,267.8 791.9,272.3 791.9,330.8 784.9,326.3" fill="#6c48c0"/>
-<polygon points="791.9,272.3 802.7,269.1 802.7,327.7 791.9,330.8" fill="#51358f"/><polygon points="784.9,267.8 795.7,264.6 802.7,269.1 791.9,272.3" fill="#9970f7"/></g>
+<polygon points="784.9,267.8 791.9,272.3 791.9,330.8 784.9,326.3" fill="#0b819a"/>
+<polygon points="791.9,272.3 802.7,269.1 802.7,327.7 791.9,330.8" fill="#086073"/><polygon points="784.9,267.8 795.7,264.6 802.7,269.1 791.9,272.3" fill="#2bb0cd"/></g>
 <g class="tw" style="animation-delay:1080ms"><title>2 on Jul 17</title>
 <polygon points="934.1,295 941.1,299.5 941.1,331.2 934.1,326.7" fill="#10495b"/>
 <polygon points="941.1,299.5 951.9,296.3 951.9,328.1 941.1,331.2" fill="#0c3744"/><polygon points="934.1,295 944.9,291.8 951.9,296.3 941.1,299.5" fill="#317186"/></g>
 <g class="tw" style="animation-delay:986ms"><title>9 on Jun 24</title>
-<polygon points="871.5,265.6 878.5,270.2 878.5,331.9 871.5,327.4" fill="#6c48c0"/>
-<polygon points="878.5,270.2 889.3,267 889.3,328.8 878.5,331.9" fill="#51358f"/><polygon points="871.5,265.6 882.3,262.5 889.3,267 878.5,270.2" fill="#9970f7"/></g>
+<polygon points="871.5,265.6 878.5,270.2 878.5,331.9 871.5,327.4" fill="#0b819a"/>
+<polygon points="878.5,270.2 889.3,267 889.3,328.8 878.5,331.9" fill="#086073"/><polygon points="871.5,265.6 882.3,262.5 889.3,267 878.5,270.2" fill="#2bb0cd"/></g>
 <g class="tw" style="animation-delay:892ms"><title>29 on Jun 1</title>
 <polygon points="808.9,221.2 815.9,225.7 815.9,332.6 808.9,328.1" fill="#b83877"/>
 <polygon points="815.9,225.7 826.7,222.5 826.7,329.5 815.9,332.6" fill="#892a59"/><polygon points="808.9,221.2 819.7,218 826.7,222.5 815.9,225.7" fill="#ee5ea5"/></g>
 <polygon points="958.1,328.5 968.9,325.4 975.9,329.9 965.1,333" fill="#141c2e"/>
 <g class="tw" style="animation-delay:1020ms"><title>9 on Jul 2</title>
-<polygon points="895.5,267.4 902.5,272 902.5,333.7 895.5,329.2" fill="#6c48c0"/>
-<polygon points="902.5,272 913.3,268.8 913.3,330.6 902.5,333.7" fill="#51358f"/><polygon points="895.5,267.4 906.3,264.3 913.3,268.8 902.5,272" fill="#9970f7"/></g>
+<polygon points="895.5,267.4 902.5,272 902.5,333.7 895.5,329.2" fill="#0b819a"/>
+<polygon points="902.5,272 913.3,268.8 913.3,330.6 902.5,333.7" fill="#086073"/><polygon points="895.5,267.4 906.3,264.3 913.3,268.8 902.5,272" fill="#2bb0cd"/></g>
 <g class="tw" style="animation-delay:926ms"><title>6 on Jun 9</title>
 <polygon points="832.9,278.6 839.9,283.1 839.9,334.4 832.9,329.9" fill="#0b819a"/>
 <polygon points="839.9,283.1 850.7,279.9 850.7,331.3 839.9,334.4" fill="#086073"/><polygon points="832.9,278.6 843.7,275.4 850.7,279.9 839.9,283.1" fill="#2bb0cd"/></g>
@@ -302,8 +302,8 @@
 <polygon points="755.7,292.1 762.7,296.6 762.7,339.4 755.7,334.9" fill="#0b819a"/>
 <polygon points="762.7,296.6 773.5,293.4 773.5,336.3 762.7,339.4" fill="#086073"/><polygon points="755.7,292.1 766.5,288.9 773.5,293.4 762.7,296.6" fill="#2bb0cd"/></g>
 <g class="tw" style="animation-delay:1028ms"><title>9 on Jul 3</title>
-<polygon points="904.9,273.5 911.9,278.1 911.9,339.8 904.9,335.3" fill="#6c48c0"/>
-<polygon points="911.9,278.1 922.7,274.9 922.7,336.7 911.9,339.8" fill="#51358f"/><polygon points="904.9,273.5 915.7,270.4 922.7,274.9 911.9,278.1" fill="#9970f7"/></g>
+<polygon points="904.9,273.5 911.9,278.1 911.9,339.8 904.9,335.3" fill="#0b819a"/>
+<polygon points="911.9,278.1 922.7,274.9 922.7,336.7 911.9,339.8" fill="#086073"/><polygon points="904.9,273.5 915.7,270.4 922.7,274.9 911.9,278.1" fill="#2bb0cd"/></g>
 <g class="tw" style="animation-delay:934ms"><title>4 on Jun 10</title>
 <polygon points="842.3,293.2 849.3,297.7 849.3,340.5 842.3,336" fill="#0b819a"/>
 <polygon points="849.3,297.7 860.1,294.5 860.1,337.4 849.3,340.5" fill="#086073"/><polygon points="842.3,293.2 853.1,290 860.1,294.5 849.3,297.7" fill="#2bb0cd"/></g>
@@ -320,15 +320,15 @@
 <polygon points="890.3,254.3 897.3,258.8 897.3,344.1 890.3,339.6" fill="#b83877"/>
 <polygon points="897.3,258.8 908.1,255.6 908.1,341 897.3,344.1" fill="#892a59"/><polygon points="890.3,254.3 901.1,251.1 908.1,255.6 897.3,258.8" fill="#ee5ea5"/></g>
 <g class="tw" style="animation-delay:908ms"><title>8 on Jun 3</title>
-<polygon points="827.7,281.8 834.7,286.3 834.7,344.8 827.7,340.3" fill="#6c48c0"/>
-<polygon points="834.7,286.3 845.5,283.1 845.5,341.7 834.7,344.8" fill="#51358f"/><polygon points="827.7,281.8 838.5,278.6 845.5,283.1 834.7,286.3" fill="#9970f7"/></g>
+<polygon points="827.7,281.8 834.7,286.3 834.7,344.8 827.7,340.3" fill="#0b819a"/>
+<polygon points="834.7,286.3 845.5,283.1 845.5,341.7 834.7,344.8" fill="#086073"/><polygon points="827.7,281.8 838.5,278.6 845.5,283.1 834.7,286.3" fill="#2bb0cd"/></g>
 <g class="tw" style="animation-delay:814ms"><title>2 on May 11</title>
 <polygon points="765.1,309.3 772.1,313.8 772.1,345.5 765.1,341" fill="#10495b"/>
 <polygon points="772.1,313.8 782.9,310.6 782.9,342.4 772.1,345.5" fill="#0c3744"/><polygon points="765.1,309.3 775.9,306.1 782.9,310.6 772.1,313.8" fill="#317186"/></g>
 <polygon points="914.3,341.4 925.1,338.3 932.1,342.8 921.3,345.9" fill="#141c2e"/>
 <g class="tw" style="animation-delay:942ms"><title>8 on Jun 11</title>
-<polygon points="851.7,283.6 858.7,288.1 858.7,346.6 851.7,342.1" fill="#6c48c0"/>
-<polygon points="858.7,288.1 869.5,284.9 869.5,343.5 858.7,346.6" fill="#51358f"/><polygon points="851.7,283.6 862.5,280.4 869.5,284.9 858.7,288.1" fill="#9970f7"/></g>
+<polygon points="851.7,283.6 858.7,288.1 858.7,346.6 851.7,342.1" fill="#0b819a"/>
+<polygon points="858.7,288.1 869.5,284.9 869.5,343.5 858.7,346.6" fill="#086073"/><polygon points="851.7,283.6 862.5,280.4 869.5,284.9 858.7,288.1" fill="#2bb0cd"/></g>
 <g class="tw" style="animation-delay:848ms"><title>2 on May 19</title>
 <polygon points="789.1,311.1 796.1,315.6 796.1,347.3 789.1,342.8" fill="#10495b"/>
 <polygon points="796.1,315.6 806.9,312.4 806.9,344.2 796.1,347.3" fill="#0c3744"/><polygon points="789.1,311.1 799.9,307.9 806.9,312.4 796.1,315.6" fill="#317186"/></g>
@@ -353,8 +353,8 @@
 <polygon points="735.9,349.6 746.7,346.5 753.7,351 742.9,354.1" fill="#141c2e"/>
 <polygon points="885.1,350 895.9,346.9 902.9,351.4 892.1,354.5" fill="#141c2e"/>
 <g class="tw" style="animation-delay:890ms"><title>9 on May 28</title>
-<polygon points="822.5,288.9 829.5,293.5 829.5,355.2 822.5,350.7" fill="#6c48c0"/>
-<polygon points="829.5,293.5 840.3,290.3 840.3,352.1 829.5,355.2" fill="#51358f"/><polygon points="822.5,288.9 833.3,285.8 840.3,290.3 829.5,293.5" fill="#9970f7"/></g>
+<polygon points="822.5,288.9 829.5,293.5 829.5,355.2 822.5,350.7" fill="#0b819a"/>
+<polygon points="829.5,293.5 840.3,290.3 840.3,352.1 829.5,355.2" fill="#086073"/><polygon points="822.5,288.9 833.3,285.8 840.3,290.3 829.5,293.5" fill="#2bb0cd"/></g>
 <polygon points="759.9,351.4 770.7,348.3 777.7,352.8 766.9,355.9" fill="#141c2e"/>
 <polygon points="697.3,352.1 708.1,349 715.1,353.5 704.3,356.6" fill="#141c2e"/>
 <polygon points="846.5,352.5 857.3,349.4 864.3,353.9 853.5,357" fill="#141c2e"/>
@@ -367,8 +367,8 @@
 <polygon points="745.3,355.7 756.1,352.6 763.1,357.1 752.3,360.2" fill="#141c2e"/>
 <polygon points="682.7,356.4 693.5,353.3 700.5,357.8 689.7,360.9" fill="#141c2e"/>
 <g class="tw" style="animation-delay:898ms"><title>9 on May 29</title>
-<polygon points="831.9,295 838.9,299.6 838.9,361.3 831.9,356.8" fill="#6c48c0"/>
-<polygon points="838.9,299.6 849.7,296.4 849.7,358.2 838.9,361.3" fill="#51358f"/><polygon points="831.9,295 842.7,291.9 849.7,296.4 838.9,299.6" fill="#9970f7"/></g>
+<polygon points="831.9,295 838.9,299.6 838.9,361.3 831.9,356.8" fill="#0b819a"/>
+<polygon points="838.9,299.6 849.7,296.4 849.7,358.2 838.9,361.3" fill="#086073"/><polygon points="831.9,295 842.7,291.9 849.7,296.4 838.9,299.6" fill="#2bb0cd"/></g>
 <g class="tw" style="animation-delay:804ms"><title>1 on May 6</title>
 <polygon points="769.3,333.6 776.3,338.1 776.3,362 769.3,357.5" fill="#10495b"/>
 <polygon points="776.3,338.1 787.1,334.9 787.1,358.9 776.3,362" fill="#0c3744"/><polygon points="769.3,333.6 780.1,330.4 787.1,334.9 776.3,338.1" fill="#317186"/></g>
@@ -478,9 +478,7 @@
 <polygon points="651.5,418.8 662.3,415.7 669.3,420.2 658.5,423.3" fill="#141c2e"/>
 <polygon points="588.9,419.5 599.7,416.4 606.7,420.9 595.9,424" fill="#141c2e"/>
 <polygon points="526.3,420.2 537.1,417.1 544.1,421.6 533.3,424.7" fill="#141c2e"/>
-<g class="tw" style="animation-delay:286ms"><title>2 on Dec 21</title>
-<polygon points="463.7,389.2 470.7,393.7 470.7,425.4 463.7,420.9" fill="#10495b"/>
-<polygon points="470.7,393.7 481.5,390.5 481.5,422.3 470.7,425.4" fill="#0c3744"/><polygon points="463.7,389.2 474.5,386 481.5,390.5 470.7,393.7" fill="#317186"/></g>
+<polygon points="463.7,420.9 474.5,417.8 481.5,422.3 470.7,425.4" fill="#141c2e"/>
 <polygon points="612.9,421.3 623.7,418.2 630.7,422.7 619.9,425.8" fill="#141c2e"/>
 <polygon points="550.3,422 561.1,418.9 568.1,423.4 557.3,426.5" fill="#141c2e"/>
 <polygon points="487.7,422.7 498.5,419.6 505.5,424.1 494.7,427.2" fill="#141c2e"/>
@@ -497,18 +495,14 @@
 <polygon points="434.5,429.5 445.3,426.4 452.3,430.9 441.5,434" fill="#141c2e"/>
 <polygon points="583.7,429.9 594.5,426.8 601.5,431.3 590.7,434.4" fill="#141c2e"/>
 <polygon points="521.1,430.6 531.9,427.5 538.9,432 528.1,435.1" fill="#141c2e"/>
-<g class="tw" style="animation-delay:268ms"><title>3 on Dec 15</title>
-<polygon points="458.5,393.5 465.5,398.1 465.5,435.8 458.5,431.3" fill="#10495b"/>
-<polygon points="465.5,398.1 476.3,394.9 476.3,432.7 465.5,435.8" fill="#0c3744"/><polygon points="458.5,393.5 469.3,390.4 476.3,394.9 465.5,398.1" fill="#317186"/></g>
+<polygon points="458.5,431.3 469.3,428.2 476.3,432.7 465.5,435.8" fill="#141c2e"/>
 <polygon points="607.7,431.7 618.5,428.6 625.5,433.1 614.7,436.2" fill="#141c2e"/>
 <polygon points="545.1,432.4 555.9,429.3 562.9,433.8 552.1,436.9" fill="#141c2e"/>
 <polygon points="482.5,433.1 493.3,430 500.3,434.5 489.5,437.6" fill="#141c2e"/>
 <polygon points="419.9,433.8 430.7,430.7 437.7,435.2 426.9,438.3" fill="#141c2e"/>
 <polygon points="569.1,434.2 579.9,431.1 586.9,435.6 576.1,438.7" fill="#141c2e"/>
 <polygon points="506.5,434.9 517.3,431.8 524.3,436.3 513.5,439.4" fill="#141c2e"/>
-<g class="tw" style="animation-delay:242ms"><title>1 on Dec 8</title>
-<polygon points="443.9,411.7 450.9,416.2 450.9,440.1 443.9,435.6" fill="#10495b"/>
-<polygon points="450.9,416.2 461.7,413 461.7,437 450.9,440.1" fill="#0c3744"/><polygon points="443.9,411.7 454.7,408.5 461.7,413 450.9,416.2" fill="#317186"/></g>
+<polygon points="443.9,435.6 454.7,432.5 461.7,437 450.9,440.1" fill="#141c2e"/>
 <polygon points="593.1,436 603.9,432.9 610.9,437.4 600.1,440.5" fill="#141c2e"/>
 <polygon points="530.5,436.7 541.3,433.6 548.3,438.1 537.5,441.2" fill="#141c2e"/>
 <polygon points="467.9,437.4 478.7,434.3 485.7,438.8 474.9,441.9" fill="#141c2e"/>
@@ -518,9 +512,7 @@
 <polygon points="429.3,439.9 440.1,436.8 447.1,441.3 436.3,444.4" fill="#141c2e"/>
 <polygon points="578.5,440.3 589.3,437.2 596.3,441.7 585.5,444.8" fill="#141c2e"/>
 <polygon points="515.9,441 526.7,437.9 533.7,442.4 522.9,445.5" fill="#141c2e"/>
-<g class="tw" style="animation-delay:250ms"><title>9 on Dec 9</title>
-<polygon points="453.3,379.9 460.3,384.5 460.3,446.2 453.3,441.7" fill="#6c48c0"/>
-<polygon points="460.3,384.5 471.1,381.3 471.1,443.1 460.3,446.2" fill="#51358f"/><polygon points="453.3,379.9 464.1,376.8 471.1,381.3 460.3,384.5" fill="#9970f7"/></g>
+<polygon points="453.3,441.7 464.1,438.6 471.1,443.1 460.3,446.2" fill="#141c2e"/>
 <polygon points="390.7,442.4 401.5,439.3 408.5,443.8 397.7,446.9" fill="#141c2e"/>
 <polygon points="539.9,442.8 550.7,439.7 557.7,444.2 546.9,447.3" fill="#141c2e"/>
 <polygon points="477.3,443.5 488.1,440.4 495.1,444.9 484.3,448" fill="#141c2e"/>
@@ -538,16 +530,12 @@
 <polygon points="361.5,451 372.3,447.9 379.3,452.4 368.5,455.5" fill="#141c2e"/>
 <polygon points="510.7,451.4 521.5,448.3 528.5,452.8 517.7,455.9" fill="#141c2e"/>
 <polygon points="448.1,452.1 458.9,449 465.9,453.5 455.1,456.6" fill="#141c2e"/>
-<g class="tw" style="animation-delay:138ms"><title>5 on Nov 10</title>
-<polygon points="385.5,405.5 392.5,410 392.5,457.3 385.5,452.8" fill="#0b819a"/>
-<polygon points="392.5,410 403.3,406.8 403.3,454.2 392.5,457.3" fill="#086073"/><polygon points="385.5,405.5 396.3,402.3 403.3,406.8 392.5,410" fill="#2bb0cd"/></g>
+<polygon points="385.5,452.8 396.3,449.7 403.3,454.2 392.5,457.3" fill="#141c2e"/>
 <polygon points="534.7,453.2 545.5,450.1 552.5,454.6 541.7,457.7" fill="#141c2e"/>
 <polygon points="472.1,453.9 482.9,450.8 489.9,455.3 479.1,458.4" fill="#141c2e"/>
 <polygon points="409.5,454.6 420.3,451.5 427.3,456 416.5,459.1" fill="#141c2e"/>
 <polygon points="346.9,455.3 357.7,452.2 364.7,456.7 353.9,459.8" fill="#141c2e"/>
-<g class="tw" style="animation-delay:300ms"><title>3 on Dec 19</title>
-<polygon points="496.1,417.9 503.1,422.5 503.1,460.2 496.1,455.7" fill="#10495b"/>
-<polygon points="503.1,422.5 513.9,419.3 513.9,457.1 503.1,460.2" fill="#0c3744"/><polygon points="496.1,417.9 506.9,414.8 513.9,419.3 503.1,422.5" fill="#317186"/></g>
+<polygon points="496.1,455.7 506.9,452.6 513.9,457.1 503.1,460.2" fill="#141c2e"/>
 <polygon points="433.5,456.4 444.3,453.3 451.3,457.8 440.5,460.9" fill="#141c2e"/>
 <polygon points="370.9,457.1 381.7,454 388.7,458.5 377.9,461.6" fill="#141c2e"/>
 <polygon points="520.1,457.5 530.9,454.4 537.9,458.9 527.1,462" fill="#141c2e"/>
@@ -557,9 +545,7 @@
 <polygon points="481.5,460 492.3,456.9 499.3,461.4 488.5,464.5" fill="#141c2e"/>
 <polygon points="418.9,460.7 429.7,457.6 436.7,462.1 425.9,465.2" fill="#141c2e"/>
 <polygon points="356.3,461.4 367.1,458.3 374.1,462.8 363.3,465.9" fill="#141c2e"/>
-<g class="tw" style="animation-delay:308ms"><title>3 on Dec 20</title>
-<polygon points="505.5,424 512.5,428.6 512.5,466.3 505.5,461.8" fill="#10495b"/>
-<polygon points="512.5,428.6 523.3,425.4 523.3,463.2 512.5,466.3" fill="#0c3744"/><polygon points="505.5,424 516.3,420.9 523.3,425.4 512.5,428.6" fill="#317186"/></g>
+<polygon points="505.5,461.8 516.3,458.7 523.3,463.2 512.5,466.3" fill="#141c2e"/>
 <polygon points="442.9,462.5 453.7,459.4 460.7,463.9 449.9,467" fill="#141c2e"/>
 <polygon points="380.3,463.2 391.1,460.1 398.1,464.6 387.3,467.7" fill="#141c2e"/>
 <polygon points="317.7,463.9 328.5,460.8 335.5,465.3 324.7,468.4" fill="#141c2e"/>
@@ -575,9 +561,7 @@
 <polygon points="327.1,470 337.9,466.9 344.9,471.4 334.1,474.5" fill="#141c2e"/>
 <polygon points="476.3,470.4 487.1,467.3 494.1,471.8 483.3,474.9" fill="#141c2e"/>
 <polygon points="413.7,471.1 424.5,468 431.5,472.5 420.7,475.6" fill="#141c2e"/>
-<g class="tw" style="animation-delay:68ms"><title>2 on Oct 21</title>
-<polygon points="351.1,440.1 358.1,444.6 358.1,476.3 351.1,471.8" fill="#10495b"/>
-<polygon points="358.1,444.6 368.9,441.4 368.9,473.2 358.1,476.3" fill="#0c3744"/><polygon points="351.1,440.1 361.9,436.9 368.9,441.4 358.1,444.6" fill="#317186"/></g>
+<polygon points="351.1,471.8 361.9,468.7 368.9,473.2 358.1,476.3" fill="#141c2e"/>
 <polygon points="437.7,472.9 448.5,469.8 455.5,474.3 444.7,477.4" fill="#141c2e"/>
 <polygon points="375.1,473.6 385.9,470.5 392.9,475 382.1,478.1" fill="#141c2e"/>
 <polygon points="312.5,474.3 323.3,471.2 330.3,475.7 319.5,478.8" fill="#141c2e"/>
@@ -590,13 +574,9 @@
 <polygon points="384.5,479.7 395.3,476.6 402.3,481.1 391.5,484.2" fill="#141c2e"/>
 <polygon points="321.9,480.4 332.7,477.3 339.7,481.8 328.9,484.9" fill="#141c2e"/>
 <polygon points="408.5,481.5 419.3,478.4 426.3,482.9 415.5,486" fill="#141c2e"/>
-<g class="tw" style="animation-delay:50ms"><title>16 on Oct 15</title>
-<polygon points="345.9,401.5 352.9,406 352.9,486.7 345.9,482.2" fill="#b83877"/>
-<polygon points="352.9,406 363.7,402.8 363.7,483.6 352.9,486.7" fill="#892a59"/><polygon points="345.9,401.5 356.7,398.3 363.7,402.8 352.9,406" fill="#ee5ea5"/></g>
+<polygon points="345.9,482.2 356.7,479.1 363.7,483.6 352.9,486.7" fill="#141c2e"/>
 <polygon points="432.5,483.3 443.3,480.2 450.3,484.7 439.5,487.8" fill="#141c2e"/>
-<g class="tw" style="animation-delay:84ms"><title>5 on Oct 23</title>
-<polygon points="369.9,436.7 376.9,441.2 376.9,488.5 369.9,484" fill="#0b819a"/>
-<polygon points="376.9,441.2 387.7,438 387.7,485.4 376.9,488.5" fill="#086073"/><polygon points="369.9,436.7 380.7,433.5 387.7,438 376.9,441.2" fill="#2bb0cd"/></g>
+<polygon points="369.9,484 380.7,480.9 387.7,485.4 376.9,488.5" fill="#141c2e"/>
 <polygon points="393.9,485.8 404.7,482.7 411.7,487.2 400.9,490.3" fill="#141c2e"/>
 <polygon points="331.3,486.5 342.1,483.4 349.1,487.9 338.3,491" fill="#141c2e"/>
 <polygon points="417.9,487.6 428.7,484.5 435.7,489 424.9,492.1" fill="#141c2e"/>
@@ -611,17 +591,17 @@
 <polygon points="359.5,504.8 370.3,501.7 377.3,506.2 366.5,509.3" fill="#141c2e"/>
 <text class="m" font-size="11" fill="#8391ad" transform="translate(418.3,521.4) rotate(-16.4)">Nov</text><text class="m" font-size="11" fill="#8391ad" transform="translate(491.3,499.9) rotate(-16.4)">Dec</text><text class="m" font-size="11" fill="#8391ad" transform="translate(549.7,482.7) rotate(-16.4)">Jan</text><text class="m" font-size="11" fill="#8391ad" transform="translate(622.7,461.2) rotate(-16.4)">Feb</text><text class="m" font-size="11" fill="#8391ad" transform="translate(681.1,444) rotate(-16.4)">Mar</text><text class="m" font-size="11" fill="#8391ad" transform="translate(739.5,426.8) rotate(-16.4)">Apr</text><text class="m" font-size="11" fill="#8391ad" transform="translate(797.9,409.6) rotate(-16.4)">May</text><text class="m" font-size="11" fill="#8391ad" transform="translate(870.9,388.1) rotate(-16.4)">Jun</text><text class="m" font-size="11" fill="#8391ad" transform="translate(929.3,370.9) rotate(-16.4)">Jul</text><text class="m" font-size="11" fill="#8391ad" transform="translate(987.7,353.7) rotate(-16.4)">Aug</text><text class="m" font-size="11" fill="#8391ad" transform="translate(1060.7,332.2) rotate(-16.4)">Sep</text><text class="m" font-size="11" fill="#8391ad" transform="translate(1119.1,315) rotate(-16.4)">Oct</text>
 <g class="peak" style="animation-delay:1.6s">
-<polyline points="861.6,202.1 861.6,155.8 861.6,147.8" fill="none" stroke="#e8eefc" stroke-opacity=".45"/>
-<circle cx="861.6" cy="202.1" r="3" fill="#e8eefc"/>
-<text class="m" x="861.6" y="139.8" font-size="12" text-anchor="middle" fill="#e8eefc" stroke="#060910" stroke-width="4" paint-order="stroke">33 · Jun 22</text></g>
-<g class="peak" style="animation-delay:1.8s">
-<polyline points="881.4,185.8 881.4,155.8 963.2,147.8" fill="none" stroke="#e8eefc" stroke-opacity=".45"/>
+<polyline points="881.4,185.8 881.4,141.5 881.4,133.5" fill="none" stroke="#e8eefc" stroke-opacity=".45"/>
 <circle cx="881.4" cy="185.8" r="3" fill="#e8eefc"/>
-<text class="m" x="963.2" y="139.8" font-size="12" text-anchor="middle" fill="#e8eefc" stroke="#060910" stroke-width="4" paint-order="stroke">34 · Jul 5</text></g>
-<g class="peak" style="animation-delay:2s">
-<polyline points="909.6,202.5 909.6,155.8 1061.2,147.8" fill="none" stroke="#e8eefc" stroke-opacity=".45"/>
+<text class="m" x="881.4" y="125.5" font-size="12" text-anchor="middle" fill="#e8eefc" stroke="#060910" stroke-width="4" paint-order="stroke">34 · Jul 5</text></g>
+<g class="peak" style="animation-delay:1.8s">
+<polyline points="909.6,202.5 909.6,141.5 979.4,133.5" fill="none" stroke="#e8eefc" stroke-opacity=".45"/>
 <circle cx="909.6" cy="202.5" r="3" fill="#e8eefc"/>
-<text class="m" x="1061.2" y="139.8" font-size="12" text-anchor="middle" fill="#e8eefc" stroke="#060910" stroke-width="4" paint-order="stroke">35 · Jul 8</text></g>
+<text class="m" x="979.4" y="125.5" font-size="12" text-anchor="middle" fill="#e8eefc" stroke="#060910" stroke-width="4" paint-order="stroke">35 · Jul 8</text></g>
+<g class="peak" style="animation-delay:2s">
+<polyline points="1050.4,171.5 1050.4,141.5 1081,133.5" fill="none" stroke="#e8eefc" stroke-opacity=".45"/>
+<circle cx="1050.4" cy="171.5" r="3" fill="#e8eefc"/>
+<text class="m" x="1081" y="125.5" font-size="12" text-anchor="middle" fill="#e8eefc" stroke="#060910" stroke-width="4" paint-order="stroke">34 · Sep 10</text></g>
 <rect class="beam" x="0" y="0" width="220" height="540" fill="url(#beamG)"/>
 <text class="m" x="40" y="511" font-size="11" fill="#8391ad">less</text><rect x="78" y="500" width="13" height="13" rx="3" fill="#141c2e"/><rect x="96" y="500" width="13" height="13" rx="3" fill="#155e75"/><rect x="114" y="500" width="13" height="13" rx="3" fill="#0ea5c6"/><rect x="132" y="500" width="13" height="13" rx="3" fill="#8b5cf6"/><rect x="150" y="500" width="13" height="13" rx="3" fill="#ec4899"/><text class="m" x="172" y="511" font-size="11" fill="#8391ad">more</text>
 <text class="m" x="1160" y="511" font-size="11" text-anchor="end" fill="#3d4a66">my commits only · public GitHub + private work repos · counts, nothing else</text>
