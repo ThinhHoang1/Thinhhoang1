@@ -21,16 +21,16 @@
   "intro": "I build AI agents that work in production: sales agents that answer customers on Messenger, Zalo and Facebook Page comments, recognize products from customer photos, take orders in Vietnamese and know when to hand off to a human. Around them I build the platform pieces: OpenClaw plugins and skills, schema-driven dashboards, webhook services that survive multiple replicas, and E2E suites that test like a real user. That code is private, so this page shows what it taught me instead. Every number here comes from real data.",
   "socials": [
     {
-      "label": "Email",
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/thinhhh/"
+    },
+    {
+      "label": "hthinhaien@gmail.com",
       "url": "mailto:hthinhaien@gmail.com"
     },
     {
       "label": "Facebook",
       "url": "https://www.facebook.com/profile.php?id=100082113433852"
-    },
-    {
-      "label": "Repositories",
-      "url": "https://github.com/ThinhHoang1?tab=repositories"
     }
   ],
   "core": {

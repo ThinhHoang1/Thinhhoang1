@@ -3,7 +3,7 @@
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg"><img src="assets/hero-dark.svg" width="100%" alt="THINH HOANG — AI Agent Engineer"></picture>
 
-<a href="mailto:hthinhaien@gmail.com"><b>Email</b></a> &nbsp;·&nbsp; <a href="https://www.facebook.com/profile.php?id=100082113433852"><b>Facebook</b></a> &nbsp;·&nbsp; <a href="https://github.com/ThinhHoang1?tab=repositories"><b>Repositories</b></a>
+<a href="https://www.linkedin.com/in/thinhhh/"><b>LinkedIn</b></a> &nbsp;·&nbsp; <a href="mailto:hthinhaien@gmail.com"><b>hthinhaien@gmail.com</b></a> &nbsp;·&nbsp; <a href="https://www.facebook.com/profile.php?id=100082113433852"><b>Facebook</b></a>
 
 </div>
 
