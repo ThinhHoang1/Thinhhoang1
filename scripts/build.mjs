@@ -341,15 +341,16 @@ ${loopLabels}
 
 function core(t) {
   const W = 1200;
-  const H = 500;
+  const H = 530;
   const cx = 600;
-  const cy = 272;
-  const BW = 262;
-  const BH = 60;
+  const cy = 284;
+  const [RX, RY] = [420, 178];
+  const BW = 284;
+  const BH = 66;
   const accents = [t.c1, t.c2, t.c3];
   const mods = cfg.core.modules.map((m, i) => {
     const ang = ((-90 + (360 / cfg.core.modules.length) * i) * Math.PI) / 180;
-    return { ...m, i, x: cx + 405 * Math.cos(ang), y: cy + 165 * Math.sin(ang), c: accents[i % 3] };
+    return { ...m, i, x: cx + RX * Math.cos(ang), y: cy + RY * Math.sin(ang), c: accents[i % 3] };
   });
 
   const spokes = mods
@@ -369,9 +370,9 @@ function core(t) {
       return `<g class="pop" style="animation-delay:${i * 90}ms">
 <rect x="${r1(bx)}" y="${r1(by)}" width="${BW}" height="${BH}" rx="12" fill="${t.panel}" stroke="${t.line}"/>
 <rect x="${r1(bx)}" y="${r1(by + 14)}" width="3" height="${BH - 28}" rx="1.5" fill="${c}"/>
-<text class="m" x="${r1(bx + 18)}" y="${r1(by + 26)}" font-size="11" fill="${c}">0${i + 1}</text>
-<text class="s" x="${r1(bx + 44)}" y="${r1(by + 26)}" font-size="16" font-weight="700" fill="${t.text}">${esc(title)}</text>
-<text class="m" x="${r1(bx + 44)}" y="${r1(by + 46)}" font-size="11.5" fill="${t.muted}">${esc(line)}</text>
+<text class="m" x="${r1(bx + 18)}" y="${r1(by + 28)}" font-size="12" fill="${c}">0${i + 1}</text>
+<text class="s" x="${r1(bx + 46)}" y="${r1(by + 28)}" font-size="18" font-weight="700" fill="${t.text}">${esc(title)}</text>
+<text class="m" x="${r1(bx + 46)}" y="${r1(by + 50)}" font-size="13" fill="${t.muted}">${esc(line)}</text>
 </g>`;
     })
     .join('\n');
@@ -388,7 +389,7 @@ function core(t) {
 
   const body = `${backdrop(t, W, H, [[600, 270, 200, 'c2'], [120, 80, 140, 'c1'], [1100, 460, 150, 'c3']])}
 ${header(t, 40, 46, '01 // AGENT CORE', 'What I engineer, end to end')}
-<ellipse cx="${cx}" cy="${cy}" rx="405" ry="165" fill="none" stroke="${t.line}" stroke-dasharray="3 6"/>
+<ellipse cx="${cx}" cy="${cy}" rx="${RX}" ry="${RY}" fill="none" stroke="${t.line}" stroke-dasharray="3 6"/>
 ${spokes}
 <circle class="ring" cx="${cx}" cy="${cy}" r="92" fill="none" stroke="${t.c1}" stroke-opacity=".45" stroke-dasharray="22 10"/>
 <circle class="ring r" cx="${cx}" cy="${cy}" r="108" fill="none" stroke="${t.c2}" stroke-opacity=".5" stroke-width="2.5" stroke-dasharray="1 8" stroke-linecap="round"/>
@@ -525,21 +526,22 @@ ${peaks}
 
 function card(t, p, i, repos) {
   const W = 600;
-  const H = 236;
+  const H = 272;
   const accent = { private: t.c3, public: t.c1, live: t.ok }[p.status];
   const badge = p.badge || 'PUBLIC REPO';
   const repo = p.repo && repos[p.repo];
   const meta = repo
     ? [repo.stars ? `★ ${repo.stars}` : '', repo.language || ''].filter(Boolean).join('  ·  ')
     : p.status === 'private' ? 'source: private' : '';
-  const desc = wrap(p.desc, 68).slice(0, 3);
+  const desc = wrap(p.desc, 58);
+  if (desc.length > 4) console.warn(`card ${p.id}: description wraps to ${desc.length} lines, only 4 fit`);
   const perimeter = 2 * (W - 2 + H - 2) - (8 - 2 * Math.PI) * 16;
 
   let tx = 28;
   const tags = p.tags
     .map((tag) => {
-      const w = tag.length * 7.2 + 22;
-      const out = `<rect x="${r1(tx)}" y="188" width="${r1(w)}" height="26" rx="13" fill="${t.panel}" stroke="${t.line}"/><text class="m" x="${r1(tx + w / 2)}" y="205.5" font-size="12" text-anchor="middle" fill="${t.muted}">${esc(tag)}</text>`;
+      const w = tag.length * 7.8 + 24;
+      const out = `<rect x="${r1(tx)}" y="${H - 52}" width="${r1(w)}" height="28" rx="14" fill="${t.panel}" stroke="${t.line}"/><text class="m" x="${r1(tx + w / 2)}" y="${H - 33}" font-size="13" text-anchor="middle" fill="${t.muted}">${esc(tag)}</text>`;
       tx += w + 8;
       return out;
     })
@@ -554,10 +556,10 @@ function card(t, p, i, repos) {
 <rect x="28" y="26" width="${r1(badge.length * 6.9 + 34)}" height="24" rx="12" fill="${accent}" fill-opacity=".12" stroke="${accent}" stroke-opacity=".45"/>
 <circle class="blink" cx="42" cy="38" r="3.5" fill="${accent}"/>
 <text class="m" x="52" y="42" font-size="11" font-weight="700" letter-spacing="1" fill="${accent}">${esc(badge)}</text>
-<text class="s" x="28" y="94" font-size="26" font-weight="700" fill="${t.text}">${esc(p.title)}</text>
-${desc.map((l, k) => `<text class="s" x="28" y="${124 + k * 21}" font-size="15" fill="${t.muted}">${esc(l)}</text>`).join('\n')}
+<text class="s" x="28" y="98" font-size="29" font-weight="700" fill="${t.text}">${esc(p.title)}</text>
+${desc.slice(0, 4).map((l, k) => `<text class="s" x="28" y="${132 + k * 23}" font-size="17" fill="${t.muted}">${esc(l)}</text>`).join('\n')}
 ${tags}
-<text class="m" x="${W - 28}" y="206" font-size="12" text-anchor="end" fill="${t.muted}">${esc(meta)}</text>
+<text class="m" x="${W - 28}" y="${H - 33}" font-size="13" text-anchor="end" fill="${t.muted}">${esc(meta)}</text>
 <rect class="run" x="1" y="1" width="${W - 2}" height="${H - 2}" rx="17" fill="none" stroke="${accent}" stroke-width="2" stroke-dasharray="150 ${r1(perimeter - 150)}" stroke-linecap="round"/>`;
 
   return svg(W, H, t, { title: p.title, desc: p.desc }, defs, body, css);
