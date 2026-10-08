@@ -11,7 +11,7 @@
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/core-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/core-light.svg"><img src="assets/core-dark.svg" width="100%" alt="Agent core: what I engineer, end to end"></picture>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/skyline-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/skyline-light.svg"><img src="assets/skyline-dark.svg" width="100%" alt="Activity skyline: 960 contributions in the last 12 months"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/skyline-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/skyline-light.svg"><img src="assets/skyline-dark.svg" width="100%" alt="Activity skyline: 962 contributions in the last 12 months"></picture>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/notes-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/notes-light.svg"><img src="assets/notes-dark.svg" width="100%" alt="Field notes: bugs that only show up in production"></picture>
 
