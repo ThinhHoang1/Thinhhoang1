@@ -1,0 +1,4 @@
+# Local list of private repo paths for export-private-activity.sh — never commit.
+.private-repos
+.DS_Store
+node_modules/

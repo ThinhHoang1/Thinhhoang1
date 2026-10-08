@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+<title id="title">THINH HOANG — AI Agent Engineer</title><desc id="desc">building AI agents that run in production · multi-agent systems · LLM tooling · evals · 960 contributions in the last 12 months · orchestrating an AI dev team with Claude Code</desc>
+<style>
+.s{font-family:'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif}.m{font-family:ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace}
+.drift{animation:drift 18s ease-in-out infinite alternate}.d1{animation-duration:23s}.d2{animation-duration:29s}
+@keyframes drift{to{transform:translate(40px,18px)}}
+.blink{animation:blink 1.6s steps(1) infinite}@keyframes blink{50%{opacity:0}}
+.caret{animation:blink 1s steps(1) infinite}
+.g1,.g2{opacity:0;animation:g1 7s steps(1) infinite}.g2{animation-name:g2}
+@keyframes g1{0%,86%,100%{opacity:0;transform:none}87%{opacity:.85;transform:translate(-5px,1px)}88%{opacity:.5;transform:translate(4px,-2px)}89%{opacity:0}93%{opacity:.6;transform:translate(-2px,0)}94%{opacity:0}}
+@keyframes g2{0%,86%,100%{opacity:0;transform:none}87%{opacity:.8;transform:translate(5px,-1px)}88%{opacity:.4;transform:translate(-3px,2px)}89%{opacity:0}93%{opacity:.55;transform:translate(2px,1px)}94%{opacity:0}}
+.scan{animation:scan 7s linear infinite}@keyframes scan{from{transform:translateY(-140px)}to{transform:translateY(500px)}}
+.edge{animation:edge 6s ease-in-out infinite}@keyframes edge{0%{transform:translateX(-700px)}100%{transform:translateX(1200px)}}
+.pulse{transform-box:fill-box;transform-origin:center;animation:pulse 3.2s ease-in-out infinite}@keyframes pulse{50%{transform:scale(1.07)}}
+.rise{animation:rise .9s cubic-bezier(.2,.8,.2,1) both}@keyframes rise{from{opacity:0;transform:translateY(14px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<defs>
+<clipPath id="card"><rect width="1200" height="360" rx="18"/></clipPath>
+<filter id="glow" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<filter id="haze" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="70"/></filter>
+<linearGradient id="brand" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22d3ee"/><stop offset=".5" stop-color="#a78bfa"/><stop offset="1" stop-color="#f472b6"/></linearGradient>
+<pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="11" cy="11" r="1" fill="#3d4a66"/></pattern>
+<radialGradient id="fadeG" cx=".5" cy=".45" r=".7"><stop offset="0" stop-color="#fff" stop-opacity=".55"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient>
+<mask id="fade"><rect width="1200" height="360" fill="url(#fadeG)"/></mask>
+<linearGradient id="nameG" x1="0" y1="0" x2="760" y2="0" gradientUnits="userSpaceOnUse" spreadMethod="reflect">
+<stop offset="0" stop-color="#22d3ee"/><stop offset=".5" stop-color="#a78bfa"/><stop offset="1" stop-color="#f472b6"/>
+<animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="1520 0" dur="10s" repeatCount="indefinite"/>
+</linearGradient>
+<linearGradient id="coreG" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#a78bfa"/><stop offset="1" stop-color="#22d3ee"/></linearGradient>
+<linearGradient id="scanG" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#22d3ee" stop-opacity="0"/><stop offset=".5" stop-color="#22d3ee" stop-opacity=".07"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/></linearGradient>
+<linearGradient id="edgeG" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22d3ee" stop-opacity="0"/><stop offset=".5" stop-color="#22d3ee"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/></linearGradient>
+</defs>
+<rect x=".5" y=".5" width="1199" height="359" rx="18" fill="#060910" stroke="#1a2540"/>
+<g clip-path="url(#card)">
+<g filter="url(#haze)" opacity="0.32"><circle class="drift d0" cx="1010" cy="70" r="170" fill="#a78bfa"/><circle class="drift d1" cx="160" cy="360" r="190" fill="#22d3ee"/><circle class="drift d2" cx="640" cy="-20" r="120" fill="#f472b6"/></g>
+<rect width="1200" height="360" fill="url(#dots)" mask="url(#fade)"/>
+<rect class="edge" x="0" y="0" width="700" height="2" fill="url(#edgeG)"/>
+<rect class="scan" x="0" y="0" width="1200" height="140" fill="url(#scanG)"/>
+
+<g class="rise">
+<circle class="blink" cx="60" cy="58" r="4" fill="#34d399"/>
+<text class="m" x="74" y="62" font-size="12" letter-spacing="2.5" fill="#8391ad">ONLINE · VIETNAM · UTC+7</text>
+<text class="s g1" x="54" y="146" font-size="78" font-weight="800" letter-spacing="1" fill="#22d3ee">THINH HOANG</text><text class="s g2" x="54" y="146" font-size="78" font-weight="800" letter-spacing="1" fill="#f472b6">THINH HOANG</text><text class="s " x="54" y="146" font-size="78" font-weight="800" letter-spacing="1" fill="url(#nameG)">THINH HOANG</text>
+<text class="s" x="56" y="184" font-size="19" fill="#8391ad">Hoàng Hưng Thịnh  <tspan fill="#3d4a66">/</tspan>  <tspan fill="#e8eefc" font-weight="600">AI Agent Engineer</tspan></text>
+</g>
+
+<text class="m" x="56" y="234" font-size="19" font-weight="700" fill="#22d3ee">&gt;</text>
+<clipPath id="tc0"><rect x="82" y="213" height="32.3" width="0"><animate attributeName="width" dur="16s" repeatCount="indefinite" keyTimes="0;0.105;0.225;0.24;1" values="0;467.4;467.4;0;0"/></rect></clipPath>
+<text class="m" x="82" y="234" font-size="19" fill="#e8eefc" textLength="467.4" lengthAdjust="spacingAndGlyphs" clip-path="url(#tc0)">building AI agents that run in production</text>
+<clipPath id="tc1"><rect x="82" y="213" height="32.3" width="0"><animate attributeName="width" dur="16s" repeatCount="indefinite" keyTimes="0;0.25;0.355;0.475;0.49;1" values="0;0;467.4;467.4;0;0"/></rect></clipPath>
+<text class="m" x="82" y="234" font-size="19" fill="#e8eefc" textLength="467.4" lengthAdjust="spacingAndGlyphs" clip-path="url(#tc1)">multi-agent systems · LLM tooling · evals</text>
+<clipPath id="tc2"><rect x="82" y="213" height="32.3" width="0"><animate attributeName="width" dur="16s" repeatCount="indefinite" keyTimes="0;0.5;0.605;0.725;0.74;1" values="0;0;444.6;444.6;0;0"/></rect></clipPath>
+<text class="m" x="82" y="234" font-size="19" fill="#e8eefc" textLength="444.6" lengthAdjust="spacingAndGlyphs" clip-path="url(#tc2)">960 contributions in the last 12 months</text>
+<clipPath id="tc3"><rect x="82" y="213" height="32.3" width="0"><animate attributeName="width" dur="16s" repeatCount="indefinite" keyTimes="0;0.75;0.855;0.975;0.99;1" values="0;0;513;513;0;0"/></rect></clipPath>
+<text class="m" x="82" y="234" font-size="19" fill="#e8eefc" textLength="513" lengthAdjust="spacingAndGlyphs" clip-path="url(#tc3)">orchestrating an AI dev team with Claude Code</text>
+<rect class="caret" y="217" width="10" height="21" fill="#22d3ee" x="82"><animate attributeName="x" dur="16s" repeatCount="indefinite" keyTimes="0;0.105;0.225;0.24;0.25;0.355;0.475;0.49;0.5;0.605;0.725;0.74;0.75;0.855;0.975;0.99;1" values="85;552.4;552.4;85;85;552.4;552.4;85;85;529.6;529.6;85;85;598;598;85;85"/></rect>
+<rect x="56" y="268" width="104" height="30" rx="15" fill="#0b1120" stroke="#1a2540"/><text class="m" x="108" y="288" font-size="13" text-anchor="middle" fill="#8391ad">LLM Agents</text><rect x="170" y="268" width="111.8" height="30" rx="15" fill="#0b1120" stroke="#1a2540"/><text class="m" x="225.9" y="288" font-size="13" text-anchor="middle" fill="#8391ad">Multi-agent</text><rect x="291.8" y="268" width="104" height="30" rx="15" fill="#0b1120" stroke="#1a2540"/><text class="m" x="343.8" y="288" font-size="13" text-anchor="middle" fill="#8391ad">TypeScript</text><rect x="405.8" y="268" width="72.8" height="30" rx="15" fill="#0b1120" stroke="#1a2540"/><text class="m" x="442.2" y="288" font-size="13" text-anchor="middle" fill="#8391ad">Python</text><rect x="488.6" y="268" width="143" height="30" rx="15" fill="#0b1120" stroke="#1a2540"/><text class="m" x="560.1" y="288" font-size="13" text-anchor="middle" fill="#8391ad">Computer Vision</text>
+<text class="m" x="56" y="336" font-size="11" fill="#3d4a66">redrawn 2026-10-08 by scripts/build.mjs · every number is real</text>
+
+<g transform="translate(968,182)">
+<circle r="140" fill="none" stroke="#1a2540" stroke-dasharray="2 7"/>
+<path id="loop" d="M0,-140 A140,140 0 1,1 -0.01,-140" fill="none"/>
+<circle r="4.5" fill="#22d3ee" opacity="1" filter="url(#glow)"><animateMotion dur="9s" begin="-0s" repeatCount="indefinite"><mpath xlink:href="#loop"/></animateMotion></circle><circle r="3.8" fill="#22d3ee" opacity="0.8200000000000001"><animateMotion dur="9s" begin="-0.08s" repeatCount="indefinite"><mpath xlink:href="#loop"/></animateMotion></circle><circle r="3.1" fill="#22d3ee" opacity="0.64"><animateMotion dur="9s" begin="-0.16s" repeatCount="indefinite"><mpath xlink:href="#loop"/></animateMotion></circle><circle r="2.4000000000000004" fill="#22d3ee" opacity="0.45999999999999996"><animateMotion dur="9s" begin="-0.24s" repeatCount="indefinite"><mpath xlink:href="#loop"/></animateMotion></circle><circle r="1.7000000000000002" fill="#22d3ee" opacity="0.28"><animateMotion dur="9s" begin="-0.32s" repeatCount="indefinite"><mpath xlink:href="#loop"/></animateMotion></circle>
+<text class="m" x="0" y="-152" font-size="11" letter-spacing="2" text-anchor="middle" fill="#8391ad">PLAN</text><text class="m" x="152" y="4" font-size="11" letter-spacing="2" text-anchor="start" fill="#8391ad">ACT</text><text class="m" x="0" y="160" font-size="11" letter-spacing="2" text-anchor="middle" fill="#8391ad">OBSERVE</text><text class="m" x="-152" y="4" font-size="11" letter-spacing="2" text-anchor="end" fill="#8391ad">LEARN</text>
+<g><circle r="104" fill="none" stroke="#a78bfa" stroke-opacity=".55" stroke-dasharray="1 9" stroke-linecap="round" stroke-width="3"/>
+<circle cx="104" r="5" fill="#f472b6" filter="url(#glow)"/><circle cx="-104" r="3.5" fill="#a78bfa"/>
+<animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="34s" repeatCount="indefinite"/></g>
+<g><circle r="80" fill="none" stroke="#22d3ee" stroke-opacity=".5" stroke-dasharray="26 12"/>
+<circle cy="-80" r="3.5" fill="#22d3ee"/>
+<animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="22s" repeatCount="indefinite"/></g>
+<circle r="58" fill="none" stroke="#22d3ee" stroke-opacity=".25"/>
+<g class="pulse"><polygon points="0,-44 38.1,-22 38.1,22 0,44 -38.1,22 -38.1,-22" fill="url(#coreG)" filter="url(#glow)"/></g>
+<text class="m" y="6" font-size="18" font-weight="700" text-anchor="middle" fill="#ffffff">AI</text>
+</g>
+</g>
+</svg>

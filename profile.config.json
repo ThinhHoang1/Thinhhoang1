@@ -1,0 +1,115 @@
+{
+  "username": "ThinhHoang1",
+  "name": "THINH HOANG",
+  "fullName": "Hoàng Hưng Thịnh",
+  "role": "AI Agent Engineer",
+  "location": "VIETNAM · UTC+7",
+  "timezone": "Asia/Ho_Chi_Minh",
+
+  "typed": [
+    "building AI agents that run in production",
+    "multi-agent systems · LLM tooling · evals",
+    "{total} contributions in the last 12 months",
+    "orchestrating an AI dev team with Claude Code"
+  ],
+  "chips": ["LLM Agents", "Multi-agent", "TypeScript", "Python", "Computer Vision"],
+
+  "intro": "I build AI agents that do real work: they hold conversations, call tools, read images, remember context and hand off to a human when they should. Then I test them the way a real user would. Most of that code is private; every number on this page comes from real data and is drawn by code in this repo.",
+
+  "socials": [
+    { "label": "Email", "url": "mailto:hthinhaien@gmail.com" },
+    { "label": "Facebook", "url": "https://www.facebook.com/profile.php?id=100082113433852" },
+    { "label": "Repositories", "url": "https://github.com/ThinhHoang1?tab=repositories" }
+  ],
+
+  "core": {
+    "center": "AGENT",
+    "modules": [
+      { "title": "Reasoning", "line": "LLM planning · tool calling" },
+      { "title": "Tools & MCP", "line": "typed tools · MCP · plugins" },
+      { "title": "Vision", "line": "see, read & match images" },
+      { "title": "Memory", "line": "sessions · RAG · vectors" },
+      { "title": "Channels", "line": "chat apps · web · webhooks" },
+      { "title": "Evals & QA", "line": "E2E as a real user · gates" },
+      { "title": "Human handoff", "line": "knows when to call a human" },
+      { "title": "Observability", "line": "metrics · logs · cost" }
+    ]
+  },
+
+  "projects": [
+    {
+      "id": "private",
+      "title": "Production AI Agents",
+      "status": "private",
+      "badge": "PRIVATE · NDA",
+      "desc": "Agents that hold real conversations end to end: reasoning, tools, vision, memory, human handoff and metrics, shipped to production. The code is private; the skyline above is the trail it left.",
+      "tags": ["TypeScript", "LLM agents", "Multi-agent", "E2E"]
+    },
+    {
+      "id": "video-studio",
+      "repo": "video-studio",
+      "title": "Video Studio",
+      "status": "public",
+      "desc": "Animated storytime videos made entirely in code: script → Gemini TTS → lip-sync → JSON storyboard → 1080p MP4. No editor, no timeline; an agent can write one.",
+      "tags": ["TypeScript", "Gemini TTS", "Lip-sync", "Agents"]
+    },
+    {
+      "id": "hr-cv-matcher",
+      "repo": "hr-cv-matcher",
+      "title": "HR CV Matcher",
+      "status": "public",
+      "desc": "Recruitment SaaS: bulk CV upload, AI extraction through n8n workflows, RAG candidate matching on Gemini embeddings, interview invites in one click.",
+      "tags": ["Next.js", "Supabase", "n8n", "RAG"]
+    },
+    {
+      "id": "coffee-leaf",
+      "repo": "Coffee_leaf_disease",
+      "title": "Coffee Leaf Disease",
+      "status": "public",
+      "desc": "Diagnoses coffee leaves: EfficientNet-B0 classifier, Prototypical Networks that learn a rare disease from 2–5 photos, YOLO boxes around lesions.",
+      "tags": ["PyTorch", "Few-shot", "YOLO", "Streamlit"]
+    },
+    {
+      "id": "news-sentiment",
+      "repo": "News-Sentiment-Analysis-Application",
+      "title": "News Sentiment",
+      "status": "public",
+      "desc": "Pulls news on any topic from NewsAPI or GNews, summarizes it with Gemini and scores sentiment with BERT, DistilBERT or RoBERTa.",
+      "tags": ["Python", "Transformers", "Gemini", "Streamlit"]
+    },
+    {
+      "id": "speaking-coach",
+      "repo": "AI-English-Speaking-Practice",
+      "url": "https://ai-english-speaking-practice.vercel.app/",
+      "title": "AI Speaking Coach",
+      "status": "live",
+      "badge": "LIVE DEMO",
+      "desc": "Speak out loud to an AI tutor. One of a series of voice-tutor apps for English, Japanese and Vietnamese ↔ English conversation.",
+      "tags": ["TypeScript", "Gemini", "Voice", "Vercel"]
+    },
+    {
+      "id": "semantic-search",
+      "repo": "Customer-Semantic-Search-with-Google-AI-MongoDB-Atlas",
+      "title": "Semantic Customer Search",
+      "status": "public",
+      "desc": "Find customers by meaning instead of keywords: Google embeddings in MongoDB Atlas Vector Search behind a Streamlit UI.",
+      "tags": ["MongoDB Atlas", "Vectors", "Embeddings"]
+    },
+    {
+      "id": "ielts-grader",
+      "repo": "IELTS-Writing-Grader-API_Vietnamese_version",
+      "title": "IELTS Writing Grader",
+      "status": "public",
+      "desc": "FastAPI service that checks spelling and grammar, grades IELTS essays by band with Google Generative AI, and runs a study chatbot.",
+      "tags": ["FastAPI", "Python", "Gemini"]
+    }
+  ],
+
+  "stack": [
+    { "group": "AGENTS & LLM", "items": ["Claude", "Claude Code", "Gemini", "OpenAI", "MCP", "LangChain", "RAG", "n8n"] },
+    { "group": "BACKEND", "items": ["TypeScript", "Node.js", "Bun", "Hono", "Python", "FastAPI", "PostgreSQL", "Redis", "RabbitMQ", "MongoDB", "Supabase"] },
+    { "group": "FRONTEND", "items": ["React", "Next.js", "Vite", "Tailwind", "Streamlit"] },
+    { "group": "ML · VISION", "items": ["PyTorch", "Transformers", "YOLO", "EfficientNet", "scikit-learn"] },
+    { "group": "SHIP & TEST", "items": ["Docker", "Playwright", "GitHub Actions", "GitLab CI", "Vercel"] }
+  ]
+}
