@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="816" viewBox="0 0 1200 816" role="img" aria-labelledby="title desc">
+<title id="title">Field notes</title><desc id="desc">The silent agent looks exactly like a broken one: Detect silent turns from the transcript and alert on them. 'AI found 0 products' was really a 400: Never turn an exception into an empty result. Surface provider errors. One photo, two copies, zero memory: One downscaled copy, and 'I can't see it' is a valid answer. 'Take 2, no bag' is an order, not a refusal: Windowed negation around commit verbs, affirmations first. 34/34 + 49/49 cases. 429 HTML is not 401 JSON: Classify by status and content type, back off exponentially. The runtime edits your system prompt: State precedence explicitly in the persona, then A/B it.</desc>
+<style>
+.s{font-family:'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif}.m{font-family:ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace}
+.drift{animation:drift 18s ease-in-out infinite alternate}.d1{animation-duration:23s}.d2{animation-duration:29s}
+@keyframes drift{to{transform:translate(40px,18px)}}
+.pop{animation:pop .7s cubic-bezier(.2,.8,.2,1) both}@keyframes pop{from{opacity:0;transform:translateY(10px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<defs>
+<clipPath id="card"><rect width="1200" height="816" rx="18"/></clipPath>
+<filter id="glow" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<filter id="haze" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="70"/></filter>
+<linearGradient id="brand" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#0891b2"/><stop offset=".5" stop-color="#7c3aed"/><stop offset="1" stop-color="#db2777"/></linearGradient>
+<pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="11" cy="11" r="1" fill="#a6b0c3"/></pattern>
+<radialGradient id="fadeG" cx=".5" cy=".45" r=".7"><stop offset="0" stop-color="#fff" stop-opacity=".55"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient>
+<mask id="fade"><rect width="1200" height="816" fill="url(#fadeG)"/></mask>
+</defs>
+<rect x=".5" y=".5" width="1199" height="815" rx="18" fill="#ffffff" stroke="#dde4ef"/>
+<g clip-path="url(#card)">
+<g filter="url(#haze)" opacity="0.14"><circle class="drift d0" cx="1080" cy="80" r="170" fill="#db2777"/><circle class="drift d1" cx="120" cy="756" r="170" fill="#0891b2"/></g>
+<rect width="1200" height="816" fill="url(#dots)" mask="url(#fade)"/>
+<text class="m" x="40" y="46" font-size="12" letter-spacing="2" fill="#0891b2">03 // FIELD NOTES</text>
+<text class="s" x="40" y="74" font-size="22" font-weight="700" fill="#0b1220">Bugs that only show up in production</text>
+<g class="pop" style="animation-delay:0ms">
+<rect x="40" y="104" width="550" height="216" rx="14" fill="#f7f9fc" stroke="#dde4ef"/>
+<rect x="40" y="122" width="3" height="28" rx="1.5" fill="#db2777"/>
+<rect x="62" y="122" width="117.6" height="22" rx="11" fill="#db2777" fill-opacity=".12" stroke="#db2777" stroke-opacity=".4"/>
+<text class="m" x="120.8" y="137" font-size="11" font-weight="700" letter-spacing="1" text-anchor="middle" fill="#db2777">OBSERVABILITY</text>
+<text class="m" x="568" y="137" font-size="12" text-anchor="end" fill="#a6b0c3">#01</text>
+<text class="s" x="62" y="172" font-size="19" font-weight="700" fill="#0b1220">The silent agent looks exactly like a broken one</text>
+<text class="m" x="62" y="196" font-size="11" font-weight="700" letter-spacing="1" fill="#db2777">SYMPTOM</text>
+<text class="s" x="144" y="196" font-size="14" fill="#56627a">Customers got no reply and every dashboard said healthy.</text>
+<text class="m" x="62" y="224" font-size="11" font-weight="700" letter-spacing="1" fill="#d97706">CAUSE</text>
+<text class="s" x="144" y="224" font-size="14" fill="#56627a">The runtime drops a deliberate 'no reply' before delivery;</text><text class="s" x="144" y="244" font-size="14" fill="#56627a">even the skip hook never sees it. Only the transcript knew.</text>
+<text class="m" x="62" y="272" font-size="11" font-weight="700" letter-spacing="1" fill="#059669">FIX</text>
+<text class="s" x="144" y="272" font-size="14" fill="#0b1220">Detect silent turns from the transcript and alert on them.</text>
+</g><g class="pop" style="animation-delay:110ms">
+<rect x="610" y="104" width="550" height="216" rx="14" fill="#f7f9fc" stroke="#dde4ef"/>
+<rect x="610" y="122" width="3" height="28" rx="1.5" fill="#7c3aed"/>
+<rect x="632" y="122" width="103.2" height="22" rx="11" fill="#7c3aed" fill-opacity=".12" stroke="#7c3aed" stroke-opacity=".4"/>
+<text class="m" x="683.6" y="137" font-size="11" font-weight="700" letter-spacing="1" text-anchor="middle" fill="#7c3aed">LLM GATEWAY</text>
+<text class="m" x="1138" y="137" font-size="12" text-anchor="end" fill="#a6b0c3">#02</text>
+<text class="s" x="632" y="172" font-size="19" font-weight="700" fill="#0b1220">'AI found 0 products' was really a 400</text>
+<text class="m" x="632" y="196" font-size="11" font-weight="700" letter-spacing="1" fill="#db2777">SYMPTOM</text>
+<text class="s" x="714" y="196" font-size="14" fill="#56627a">Product recognition returned an empty list on every photo.</text>
+<text class="m" x="632" y="224" font-size="11" font-weight="700" letter-spacing="1" fill="#d97706">CAUSE</text>
+<text class="s" x="714" y="224" font-size="14" fill="#56627a">The gateway only accepts temperature = 1; the host caught</text><text class="s" x="714" y="244" font-size="14" fill="#56627a">the error and mapped it to [].</text>
+<text class="m" x="632" y="272" font-size="11" font-weight="700" letter-spacing="1" fill="#059669">FIX</text>
+<text class="s" x="714" y="272" font-size="14" fill="#0b1220">Never turn an exception into an empty result. Surface</text><text class="s" x="714" y="292" font-size="14" fill="#0b1220">provider errors.</text>
+</g><g class="pop" style="animation-delay:220ms">
+<rect x="40" y="340" width="550" height="216" rx="14" fill="#f7f9fc" stroke="#dde4ef"/>
+<rect x="40" y="358" width="3" height="28" rx="1.5" fill="#0891b2"/>
+<rect x="62" y="358" width="67.2" height="22" rx="11" fill="#0891b2" fill-opacity=".12" stroke="#0891b2" stroke-opacity=".4"/>
+<text class="m" x="95.6" y="373" font-size="11" font-weight="700" letter-spacing="1" text-anchor="middle" fill="#0891b2">VISION</text>
+<text class="m" x="568" y="373" font-size="12" text-anchor="end" fill="#a6b0c3">#03</text>
+<text class="s" x="62" y="408" font-size="19" font-weight="700" fill="#0b1220">One photo, two copies, zero memory</text>
+<text class="m" x="62" y="432" font-size="11" font-weight="700" letter-spacing="1" fill="#db2777">SYMPTOM</text>
+<text class="s" x="144" y="432" font-size="14" fill="#56627a">The agent described a customer photo it could no longer see.</text>
+<text class="m" x="62" y="460" font-size="11" font-weight="700" letter-spacing="1" fill="#d97706">CAUSE</text>
+<text class="s" x="144" y="460" font-size="14" fill="#56627a">The image was attached twice at full size, context</text><text class="s" x="144" y="480" font-size="14" fill="#56627a">overflowed, compaction dropped it.</text>
+<text class="m" x="62" y="508" font-size="11" font-weight="700" letter-spacing="1" fill="#059669">FIX</text>
+<text class="s" x="144" y="508" font-size="14" fill="#0b1220">One downscaled copy, and 'I can't see it' is a valid answer.</text>
+</g><g class="pop" style="animation-delay:330ms">
+<rect x="610" y="340" width="550" height="216" rx="14" fill="#f7f9fc" stroke="#dde4ef"/>
+<rect x="610" y="358" width="3" height="28" rx="1.5" fill="#059669"/>
+<rect x="632" y="358" width="124.8" height="22" rx="11" fill="#059669" fill-opacity=".12" stroke="#059669" stroke-opacity=".4"/>
+<text class="m" x="694.4" y="373" font-size="11" font-weight="700" letter-spacing="1" text-anchor="middle" fill="#059669">VIETNAMESE NLU</text>
+<text class="m" x="1138" y="373" font-size="12" text-anchor="end" fill="#a6b0c3">#04</text>
+<text class="s" x="632" y="408" font-size="19" font-weight="700" fill="#0b1220">'Take 2, no bag' is an order, not a refusal</text>
+<text class="m" x="632" y="432" font-size="11" font-weight="700" letter-spacing="1" fill="#db2777">SYMPTOM</text>
+<text class="s" x="714" y="432" font-size="14" fill="#56627a">Real orders were blocked as cancellations.</text>
+<text class="m" x="632" y="460" font-size="11" font-weight="700" letter-spacing="1" fill="#d97706">CAUSE</text>
+<text class="s" x="714" y="460" font-size="14" fill="#56627a">Negation vetoed the whole sentence; unaccented 'dung roi' is</text><text class="s" x="714" y="480" font-size="14" fill="#56627a">both 'right' and 'don't'.</text>
+<text class="m" x="632" y="508" font-size="11" font-weight="700" letter-spacing="1" fill="#059669">FIX</text>
+<text class="s" x="714" y="508" font-size="14" fill="#0b1220">Windowed negation around commit verbs, affirmations first.</text><text class="s" x="714" y="528" font-size="14" fill="#0b1220">34/34 + 49/49 cases.</text>
+</g><g class="pop" style="animation-delay:440ms">
+<rect x="40" y="576" width="550" height="216" rx="14" fill="#f7f9fc" stroke="#dde4ef"/>
+<rect x="40" y="594" width="3" height="28" rx="1.5" fill="#d97706"/>
+<rect x="62" y="594" width="110.4" height="22" rx="11" fill="#d97706" fill-opacity=".12" stroke="#d97706" stroke-opacity=".4"/>
+<text class="m" x="117.2" y="609" font-size="11" font-weight="700" letter-spacing="1" text-anchor="middle" fill="#d97706">INTEGRATIONS</text>
+<text class="m" x="568" y="609" font-size="12" text-anchor="end" fill="#a6b0c3">#05</text>
+<text class="s" x="62" y="644" font-size="19" font-weight="700" fill="#0b1220">429 HTML is not 401 JSON</text>
+<text class="m" x="62" y="668" font-size="11" font-weight="700" letter-spacing="1" fill="#db2777">SYMPTOM</text>
+<text class="s" x="144" y="668" font-size="14" fill="#56627a">A valid bot token looked revoked.</text>
+<text class="m" x="62" y="696" font-size="11" font-weight="700" letter-spacing="1" fill="#d97706">CAUSE</text>
+<text class="s" x="144" y="696" font-size="14" fill="#56627a">An IP-level rate limit answers in HTML; a revoked token</text><text class="s" x="144" y="716" font-size="14" fill="#56627a">answers JSON 401 instantly. Poll without backoff and you</text><text class="s" x="144" y="736" font-size="14" fill="#56627a">cause the 429 yourself.</text>
+<text class="m" x="62" y="764" font-size="11" font-weight="700" letter-spacing="1" fill="#059669">FIX</text>
+<text class="s" x="144" y="764" font-size="14" fill="#0b1220">Classify by status and content type, back off exponentially.</text>
+</g><g class="pop" style="animation-delay:550ms">
+<rect x="610" y="576" width="550" height="216" rx="14" fill="#f7f9fc" stroke="#dde4ef"/>
+<rect x="610" y="594" width="3" height="28" rx="1.5" fill="#0891b2"/>
+<rect x="632" y="594" width="88.8" height="22" rx="11" fill="#0891b2" fill-opacity=".12" stroke="#0891b2" stroke-opacity=".4"/>
+<text class="m" x="676.4" y="609" font-size="11" font-weight="700" letter-spacing="1" text-anchor="middle" fill="#0891b2">PROMPTING</text>
+<text class="m" x="1138" y="609" font-size="12" text-anchor="end" fill="#a6b0c3">#06</text>
+<text class="s" x="632" y="644" font-size="19" font-weight="700" fill="#0b1220">The runtime edits your system prompt</text>
+<text class="m" x="632" y="668" font-size="11" font-weight="700" letter-spacing="1" fill="#db2777">SYMPTOM</text>
+<text class="s" x="714" y="668" font-size="14" fill="#56627a">The persona told users the wrong model name.</text>
+<text class="m" x="632" y="696" font-size="11" font-weight="700" letter-spacing="1" fill="#d97706">CAUSE</text>
+<text class="s" x="714" y="696" font-size="14" fill="#56627a">The agent runtime appends 'if asked which model, answer X'</text><text class="s" x="714" y="716" font-size="14" fill="#56627a">after your prompt, and last instruction wins.</text>
+<text class="m" x="632" y="744" font-size="11" font-weight="700" letter-spacing="1" fill="#059669">FIX</text>
+<text class="s" x="714" y="744" font-size="14" fill="#0b1220">State precedence explicitly in the persona, then A/B it.</text>
+</g>
+</g>
+</svg>

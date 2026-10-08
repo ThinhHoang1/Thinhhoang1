@@ -5,45 +5,97 @@
   "role": "AI Agent Engineer",
   "location": "VIETNAM · UTC+7",
   "timezone": "Asia/Ho_Chi_Minh",
-
   "typed": [
-    "building AI agents that run in production",
-    "multi-agent systems · LLM tooling · evals",
+    "shipping AI sales agents on Messenger & Zalo",
+    "OpenClaw plugins · skills · agent workspaces",
     "{total} contributions in the last 12 months",
     "orchestrating an AI dev team with Claude Code"
   ],
-  "chips": ["LLM Agents", "Multi-agent", "TypeScript", "Python", "Computer Vision"],
-
-  "intro": "I build AI agents that do real work: they hold conversations, call tools, read images, remember context and hand off to a human when they should. Then I test them the way a real user would. Most of that code is private; every number on this page comes from real data and is drawn by code in this repo.",
-
-  "socials": [
-    { "label": "Email", "url": "mailto:hthinhaien@gmail.com" },
-    { "label": "Facebook", "url": "https://www.facebook.com/profile.php?id=100082113433852" },
-    { "label": "Repositories", "url": "https://github.com/ThinhHoang1?tab=repositories" }
+  "chips": [
+    "LLM Agents",
+    "OpenClaw",
+    "Multi-agent",
+    "TypeScript",
+    "Python"
   ],
-
+  "intro": "I build AI agents that work in production: sales agents that answer customers on Messenger, Zalo and Facebook Page comments, recognize products from customer photos, take orders in Vietnamese and know when to hand off to a human. Around them I build the platform pieces: OpenClaw plugins and skills, schema-driven dashboards, webhook services that survive multiple replicas, and E2E suites that test like a real user. That code is private, so this page shows what it taught me instead. Every number here comes from real data.",
+  "socials": [
+    {
+      "label": "Email",
+      "url": "mailto:hthinhaien@gmail.com"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/profile.php?id=100082113433852"
+    },
+    {
+      "label": "Repositories",
+      "url": "https://github.com/ThinhHoang1?tab=repositories"
+    }
+  ],
   "core": {
     "center": "AGENT",
     "modules": [
-      { "title": "Reasoning", "line": "LLM planning · tool calling" },
-      { "title": "Tools & MCP", "line": "typed tools · MCP · plugins" },
-      { "title": "Vision", "line": "see, read & match images" },
-      { "title": "Memory", "line": "sessions · RAG · vectors" },
-      { "title": "Channels", "line": "chat apps · web · webhooks" },
-      { "title": "Evals & QA", "line": "E2E as a real user · gates" },
-      { "title": "Human handoff", "line": "knows when to call a human" },
-      { "title": "Observability", "line": "metrics · logs · cost" }
+      {
+        "title": "Reasoning",
+        "line": "LLM planning · tool calling"
+      },
+      {
+        "title": "Tools & MCP",
+        "line": "typed tools · MCP · plugins"
+      },
+      {
+        "title": "Vision",
+        "line": "see, read & match images"
+      },
+      {
+        "title": "Memory",
+        "line": "sessions · RAG · vectors"
+      },
+      {
+        "title": "Channels",
+        "line": "chat apps · web · webhooks"
+      },
+      {
+        "title": "Evals & QA",
+        "line": "E2E as a real user · gates"
+      },
+      {
+        "title": "Human handoff",
+        "line": "knows when to call a human"
+      },
+      {
+        "title": "Observability",
+        "line": "metrics · logs · cost"
+      }
     ]
   },
-
   "projects": [
     {
       "id": "private",
-      "title": "Production AI Agents",
+      "title": "AI Sales Agents",
       "status": "private",
-      "badge": "PRIVATE · NDA",
-      "desc": "Agents that hold real conversations end to end: reasoning, tools, vision, memory, human handoff and metrics, shipped to production. The code is private; the skyline above is the trail it left.",
-      "tags": ["TypeScript", "LLM agents", "Multi-agent", "E2E"]
+      "badge": "PRIVATE · IN PRODUCTION",
+      "desc": "Agents that sell on Messenger, Zalo, Page comments and web chat: product recognition from customer photos, Vietnamese order intent, human handoff, catalog sync with e-commerce platforms, webhook services across replicas.",
+      "tags": [
+        "TypeScript",
+        "OpenClaw",
+        "Graph API",
+        "RabbitMQ"
+      ]
+    },
+    {
+      "id": "platform",
+      "title": "Agent Platform Tooling",
+      "status": "private",
+      "badge": "PRIVATE · IN PRODUCTION",
+      "desc": "OpenClaw plugins, skills and installable agent workspaces; a schema-driven UI engine that renders agent dashboards from YAML; E2E suites that drive the product like a real user.",
+      "tags": [
+        "OpenClaw",
+        "React",
+        "YAML UI",
+        "Playwright"
+      ]
     },
     {
       "id": "video-studio",
@@ -51,15 +103,12 @@
       "title": "Video Studio",
       "status": "public",
       "desc": "Animated storytime videos made entirely in code: script → Gemini TTS → lip-sync → JSON storyboard → 1080p MP4. No editor, no timeline; an agent can write one.",
-      "tags": ["TypeScript", "Gemini TTS", "Lip-sync", "Agents"]
-    },
-    {
-      "id": "hr-cv-matcher",
-      "repo": "hr-cv-matcher",
-      "title": "HR CV Matcher",
-      "status": "public",
-      "desc": "Recruitment SaaS: bulk CV upload, AI extraction through n8n workflows, RAG candidate matching on Gemini embeddings, interview invites in one click.",
-      "tags": ["Next.js", "Supabase", "n8n", "RAG"]
+      "tags": [
+        "TypeScript",
+        "Gemini TTS",
+        "Lip-sync",
+        "Agents"
+      ]
     },
     {
       "id": "coffee-leaf",
@@ -67,49 +116,128 @@
       "title": "Coffee Leaf Disease",
       "status": "public",
       "desc": "Diagnoses coffee leaves: EfficientNet-B0 classifier, Prototypical Networks that learn a rare disease from 2–5 photos, YOLO boxes around lesions.",
-      "tags": ["PyTorch", "Few-shot", "YOLO", "Streamlit"]
-    },
-    {
-      "id": "news-sentiment",
-      "repo": "News-Sentiment-Analysis-Application",
-      "title": "News Sentiment",
-      "status": "public",
-      "desc": "Pulls news on any topic from NewsAPI or GNews, summarizes it with Gemini and scores sentiment with BERT, DistilBERT or RoBERTa.",
-      "tags": ["Python", "Transformers", "Gemini", "Streamlit"]
-    },
-    {
-      "id": "speaking-coach",
-      "repo": "AI-English-Speaking-Practice",
-      "url": "https://ai-english-speaking-practice.vercel.app/",
-      "title": "AI Speaking Coach",
-      "status": "live",
-      "badge": "LIVE DEMO",
-      "desc": "Speak out loud to an AI tutor. One of a series of voice-tutor apps for English, Japanese and Vietnamese ↔ English conversation.",
-      "tags": ["TypeScript", "Gemini", "Voice", "Vercel"]
-    },
-    {
-      "id": "semantic-search",
-      "repo": "Customer-Semantic-Search-with-Google-AI-MongoDB-Atlas",
-      "title": "Semantic Customer Search",
-      "status": "public",
-      "desc": "Find customers by meaning instead of keywords: Google embeddings in MongoDB Atlas Vector Search behind a Streamlit UI.",
-      "tags": ["MongoDB Atlas", "Vectors", "Embeddings"]
-    },
-    {
-      "id": "ielts-grader",
-      "repo": "IELTS-Writing-Grader-API_Vietnamese_version",
-      "title": "IELTS Writing Grader",
-      "status": "public",
-      "desc": "FastAPI service that checks spelling and grammar, grades IELTS essays by band with Google Generative AI, and runs a study chatbot.",
-      "tags": ["FastAPI", "Python", "Gemini"]
+      "tags": [
+        "PyTorch",
+        "Few-shot",
+        "YOLO",
+        "Streamlit"
+      ]
     }
   ],
-
   "stack": [
-    { "group": "AGENTS & LLM", "items": ["Claude", "Claude Code", "Gemini", "OpenAI", "MCP", "LangChain", "RAG", "n8n"] },
-    { "group": "BACKEND", "items": ["TypeScript", "Node.js", "Bun", "Hono", "Python", "FastAPI", "PostgreSQL", "Redis", "RabbitMQ", "MongoDB", "Supabase"] },
-    { "group": "FRONTEND", "items": ["React", "Next.js", "Vite", "Tailwind", "Streamlit"] },
-    { "group": "ML · VISION", "items": ["PyTorch", "Transformers", "YOLO", "EfficientNet", "scikit-learn"] },
-    { "group": "SHIP & TEST", "items": ["Docker", "Playwright", "GitHub Actions", "GitLab CI", "Vercel"] }
+    {
+      "group": "AGENTS & LLM",
+      "items": [
+        "OpenClaw",
+        "Claude",
+        "Claude Code",
+        "Gemini",
+        "OpenAI",
+        "MCP",
+        "LiteLLM",
+        "RAG",
+        "n8n"
+      ]
+    },
+    {
+      "group": "MESSAGING",
+      "items": [
+        "Messenger Platform",
+        "Graph API",
+        "Zalo OA",
+        "Webhooks · HMAC",
+        "VN e-commerce APIs"
+      ]
+    },
+    {
+      "group": "BACKEND",
+      "items": [
+        "TypeScript",
+        "Node.js",
+        "Bun",
+        "Hono",
+        "Python",
+        "FastAPI",
+        "PostgreSQL",
+        "Redis",
+        "RabbitMQ",
+        "MongoDB",
+        "S3 · CDN"
+      ]
+    },
+    {
+      "group": "FRONTEND",
+      "items": [
+        "React",
+        "Next.js",
+        "Vite",
+        "Tailwind",
+        "Streamlit"
+      ]
+    },
+    {
+      "group": "ML · VISION",
+      "items": [
+        "PyTorch",
+        "Transformers",
+        "YOLO",
+        "EfficientNet",
+        "scikit-learn"
+      ]
+    },
+    {
+      "group": "SHIP & TEST",
+      "items": [
+        "Docker",
+        "Playwright",
+        "GitHub Actions",
+        "GitLab CI",
+        "Vercel"
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "tag": "OBSERVABILITY",
+      "title": "The silent agent looks exactly like a broken one",
+      "symptom": "Customers got no reply and every dashboard said healthy.",
+      "cause": "The runtime drops a deliberate 'no reply' before delivery; even the skip hook never sees it. Only the transcript knew.",
+      "fix": "Detect silent turns from the transcript and alert on them."
+    },
+    {
+      "tag": "LLM GATEWAY",
+      "title": "'AI found 0 products' was really a 400",
+      "symptom": "Product recognition returned an empty list on every photo.",
+      "cause": "The gateway only accepts temperature = 1; the host caught the error and mapped it to [].",
+      "fix": "Never turn an exception into an empty result. Surface provider errors."
+    },
+    {
+      "tag": "VISION",
+      "title": "One photo, two copies, zero memory",
+      "symptom": "The agent described a customer photo it could no longer see.",
+      "cause": "The image was attached twice at full size, context overflowed, compaction dropped it.",
+      "fix": "One downscaled copy, and 'I can't see it' is a valid answer."
+    },
+    {
+      "tag": "VIETNAMESE NLU",
+      "title": "'Take 2, no bag' is an order, not a refusal",
+      "symptom": "Real orders were blocked as cancellations.",
+      "cause": "Negation vetoed the whole sentence; unaccented 'dung roi' is both 'right' and 'don't'.",
+      "fix": "Windowed negation around commit verbs, affirmations first. 34/34 + 49/49 cases."
+    },
+    {
+      "tag": "INTEGRATIONS",
+      "title": "429 HTML is not 401 JSON",
+      "symptom": "A valid bot token looked revoked.",
+      "cause": "An IP-level rate limit answers in HTML; a revoked token answers JSON 401 instantly. Poll without backoff and you cause the 429 yourself.",
+      "fix": "Classify by status and content type, back off exponentially."
+    },
+    {
+      "tag": "PROMPTING",
+      "title": "The runtime edits your system prompt",
+      "symptom": "The persona told users the wrong model name.",
+      "cause": "The agent runtime appends 'if asked which model, answer X' after your prompt, and last instruction wins.",
+      "fix": "State precedence explicitly in the persona, then A/B it."
+    }
   ]
 }

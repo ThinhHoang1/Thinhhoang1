@@ -522,6 +522,65 @@ ${peaks}
   );
 }
 
+// ───────────────────────────── field notes ─────────────────────────────
+
+function fieldNotes(t) {
+  const W = 1200;
+  const COLS = 2;
+  const GAP = 20;
+  const CW = (W - 80 - GAP) / COLS;
+  const LH = 20;
+  const WRAP = 60;
+  const accents = [t.c3, t.c2, t.c1, t.ok, t.warn, t.c1];
+  const rowsOf = (n) => [
+    ['SYMPTOM', t.c3, wrap(n.symptom, WRAP)],
+    ['CAUSE', t.warn, wrap(n.cause, WRAP)],
+    ['FIX', t.ok, wrap(n.fix, WRAP)],
+  ];
+  const heightOf = (n) => 84 + rowsOf(n).reduce((h, [, , lines]) => h + lines.length * LH + 8, 0) + 8;
+
+  let y = 104;
+  let out = '';
+  for (let r = 0; r < cfg.notes.length; r += COLS) {
+    const row = cfg.notes.slice(r, r + COLS);
+    const h = Math.max(...row.map(heightOf));
+    row.forEach((n, k) => {
+      const i = r + k;
+      const x = 40 + k * (CW + GAP);
+      const c = accents[i % accents.length];
+      let ly = y + 92;
+      const body = rowsOf(n)
+        .map(([label, lc, lines]) => {
+          const block = `<text class="m" x="${x + 22}" y="${ly}" font-size="11" font-weight="700" letter-spacing="1" fill="${lc}">${label}</text>
+${lines.map((l, j) => `<text class="s" x="${x + 104}" y="${ly + j * LH}" font-size="14" fill="${label === 'FIX' ? t.text : t.muted}">${esc(l)}</text>`).join('')}`;
+          ly += lines.length * LH + 8;
+          return block;
+        })
+        .join('\n');
+      const tagW = n.tag.length * 7.2 + 24;
+      out += `<g class="pop" style="animation-delay:${i * 110}ms">
+<rect x="${x}" y="${y}" width="${CW}" height="${h}" rx="14" fill="${t.panel}" stroke="${t.line}"/>
+<rect x="${x}" y="${y + 18}" width="3" height="28" rx="1.5" fill="${c}"/>
+<rect x="${x + 22}" y="${y + 18}" width="${r1(tagW)}" height="22" rx="11" fill="${c}" fill-opacity=".12" stroke="${c}" stroke-opacity=".4"/>
+<text class="m" x="${r1(x + 22 + tagW / 2)}" y="${y + 33}" font-size="11" font-weight="700" letter-spacing="1" text-anchor="middle" fill="${c}">${esc(n.tag)}</text>
+<text class="m" x="${x + CW - 22}" y="${y + 33}" font-size="12" text-anchor="end" fill="${t.dim}">#${String(i + 1).padStart(2, '0')}</text>
+<text class="s" x="${x + 22}" y="${y + 68}" font-size="19" font-weight="700" fill="${t.text}">${esc(n.title)}</text>
+${body}
+</g>`;
+    });
+    y += h + GAP;
+  }
+  const H = y + 4;
+
+  const defs = backdropDefs(t, W, H);
+  const css = `${backdropCss}
+.pop{animation:pop .7s cubic-bezier(.2,.8,.2,1) both}@keyframes pop{from{opacity:0;transform:translateY(10px)}}`;
+  const body = `${backdrop(t, W, H, [[1080, 80, 170, 'c3'], [120, H - 60, 170, 'c1']])}
+${header(t, 40, 46, '03 // FIELD NOTES', 'Bugs that only show up in production')}
+${out}`;
+  return svg(W, H, t, { title: 'Field notes', desc: cfg.notes.map((n) => `${n.title}: ${n.fix}`).join(' ') }, defs, body, css);
+}
+
 // ───────────────────────────── project cards ─────────────────────────────
 
 function card(t, p, i, repos) {
@@ -601,7 +660,7 @@ function arsenal(t) {
   const css = `${backdropCss}
 .pop{animation:pop .6s cubic-bezier(.2,.8,.2,1) both}@keyframes pop{from{opacity:0;transform:translateY(8px)}}`;
   const body = `${backdrop(t, W, H, [[1050, 60, 160, 'c2'], [200, H, 160, 'c1']])}
-${header(t, 40, 46, '04 // ARSENAL', 'Tools I reach for')}
+${header(t, 40, 46, '05 // ARSENAL', 'Tools I reach for')}
 ${rows}`;
   return svg(W, H, t, { title: 'Arsenal', desc: cfg.stack.map((g) => `${g.group}: ${g.items.join(', ')}`).join('. ') }, defs, body, css);
 }
@@ -636,9 +695,11 @@ ${picture('core', 'Agent core: what I engineer, end to end')}
 
 ${picture('skyline', `Activity skyline: ${a.total} contributions in the last 12 months`)}
 
+${picture('notes', 'Field notes: bugs that only show up in production')}
+
 <div align="center">
 
-### 03 // Selected work
+### 04 // Selected work
 
 ${cards}
 
@@ -662,6 +723,7 @@ for (const [mode, t] of Object.entries(THEMES)) {
   out('hero', hero(t, activity));
   out('core', core(t));
   out('skyline', skyline(t, activity));
+  out('notes', fieldNotes(t));
   out('arsenal', arsenal(t));
   cfg.projects.forEach((p, i) => out(`card-${p.id}`, card(t, p, i, github.repos)));
 }
