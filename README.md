@@ -19,6 +19,17 @@
 
 ### 04 // Selected work
 
+<img src="assets/film/film.gif" width="100%" alt="Bàn tay mười nghìn (The ten-thousand-đồng hand): opening of a hand-drawn short film rendered from code">
+
+<b>Bàn tay mười nghìn</b> <i>(The ten-thousand-đồng hand)</i>: a hand-drawn short film, made entirely in code<br>
+<sub>11:47 · original story · 109 lines in 11 chapters · 5 character voices · ~20 hand-drawn sets · 1080p30</sub><br>
+<sub>Script → Gemini TTS, 3 takes per line → Whisper large-v3-turbo keeps the take that matches the script → mouth envelopes and cue timing → every frame redrawn by a canvas ink rig → HyperFrames render. No drawing app, no timeline.</sub>
+
+<img src="assets/film/still-street.jpg" width="24%" alt="Still from Bàn tay mười nghìn">
+<img src="assets/film/still-bus.jpg" width="24%" alt="Still from Bàn tay mười nghìn">
+<img src="assets/film/still-night.jpg" width="24%" alt="Still from Bàn tay mười nghìn">
+<img src="assets/film/still-jar.jpg" width="24%" alt="Still from Bàn tay mười nghìn">
+
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-private-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/card-private-light.svg"><img src="assets/card-private-dark.svg" width="49%" alt="AI Sales Agents — Agents that sell on Messenger, Zalo, Page comments and web chat: product recognition from customer photos, Vietnamese order intent, human handoff, catalog sync with e-commerce platforms, webhook services across replicas."></picture>
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-platform-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/card-platform-light.svg"><img src="assets/card-platform-dark.svg" width="49%" alt="Agent Platform Tooling — OpenClaw plugins, skills and installable agent workspaces; a schema-driven UI engine that renders agent dashboards from YAML; E2E suites that drive the product like a real user."></picture>
 <a href="https://github.com/ThinhHoang1/claude-code-agent-team"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-agent-team-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/card-agent-team-light.svg"><img src="assets/card-agent-team-dark.svg" width="49%" alt="Claude Code Agent Team — An AI dev team inside Claude Code: 8 role agents, a HANDOFF protocol and 3 hook quality gates. Root-caused a gate that blocked teammates forever (it read the lead's transcript, not theirs). 118 tests."></picture></a>
