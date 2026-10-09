@@ -30,7 +30,7 @@
 <text class="s" x="40" y="236" font-size="26" font-weight="700" fill="#0b1220">92</text>
 <text class="m" x="40" y="255" font-size="11" letter-spacing="1" fill="#56627a">ACTIVE DAYS</text><text class="s" x="160" y="236" font-size="26" font-weight="700" fill="#0b1220">6d</text>
 <text class="m" x="160" y="255" font-size="11" letter-spacing="1" fill="#56627a">LONGEST STREAK</text>
-<text class="s" x="40" y="296" font-size="26" font-weight="700" fill="#0b1220">4d</text>
+<text class="s" x="40" y="296" font-size="26" font-weight="700" fill="#0b1220">0d</text>
 <text class="m" x="40" y="315" font-size="11" letter-spacing="1" fill="#56627a">CURRENT STREAK</text><text class="s" x="160" y="296" font-size="26" font-weight="700" fill="#0b1220">35</text>
 <text class="m" x="160" y="315" font-size="11" letter-spacing="1" fill="#56627a">BEST · JUL 8</text>
 <polygon points="290.4,467.3 363.7,514.9 363.7,523.9 290.4,476.3" fill="#d0d4d9"/>
@@ -107,6 +107,7 @@
 <g class="tw" style="animation-delay:1178ms"><title>20 on Aug 17</title>
 <polygon points="969.5,191.2 976.5,195.7 976.5,285.3 969.5,280.8" fill="#b1276a"/>
 <polygon points="976.5,195.7 987.3,192.5 987.3,282.2 976.5,285.3" fill="#8c285e"/><polygon points="969.5,191.2 980.3,188 987.3,192.5 976.5,195.7" fill="#df4187"/></g>
+<polygon points="1118.7,281.2 1129.5,278.1 1136.5,282.6 1125.7,285.7" fill="#e9eef5"/>
 <g class="tw" style="animation-delay:1306ms"><title>16 on Sep 17</title>
 <polygon points="1056.1,201.2 1063.1,205.7 1063.1,286.4 1056.1,281.9" fill="#b1276a"/>
 <polygon points="1063.1,205.7 1073.9,202.5 1073.9,283.3 1063.1,286.4" fill="#8c285e"/><polygon points="1056.1,201.2 1066.9,198 1073.9,202.5 1063.1,205.7" fill="#df4187"/></g>
